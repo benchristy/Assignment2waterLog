@@ -123,7 +123,24 @@
 	  overflow-y:scroll;
 	  float:right;
    }
-
+   div.ex3 {
+	   margin:0px auto;
+	   margin-top: 20px;
+	   width: 98%;
+	 height: 700px;
+	   background-color: white;
+	   box-shadow: #000000 1px 0px;
+	   border: #000000 5px double; 
+	  padding: 10px 10px 10px 10px;
+	  overflow-y:scroll;
+	  float:right;
+   }
+   .imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
    /* Footer */
    .footer {
 	 position: fixed;
@@ -196,6 +213,18 @@
 			   float: left;  
 			   margin: 5px;
 			   margin-top:50px
+   }
+   .UIPhoto1 {  
+			   margin: 5px;
+			   margin-left: 375px;
+  margin-right: auto;
+   }
+   .UIPhoto2 {   
+	   float: right;
+			   margin: 5px;
+			   margin-left: auto;
+			   margin-right: 400px;
+
    }
 
    /* Setting up names for personal profiles */
@@ -276,7 +305,7 @@
 			   <!--Tab to describe/introduce our project-->
 		<h2 style="text-align : center; font-size:3vw;"> <p.l>Our Project</p.l></h2>
 		   </div>
-		   <div class="ex2">
+		  <!-- <div class="ex2">
 			   <h2>waterLog</h2>
 		   <p.l>
 			<br>waterLog will be an application in which people can obtain certain parameters from water in most main cities in Australia, later this will be increased from not only Australia but to most of the world's countries. These water parameters presented to the user will be derived through the provided tap water for the destination, all data for which will be provided through government and/or official company websites and databases. The end goal for this application is to provide easily accessible data across the world, especially in places that lack clean drinking water. 
@@ -341,40 +370,602 @@
 		</div>
 		 </div>
 	   </div>
-
+-->
 	   <div class="container" id="section3">
 			 <div class="container">  
 		  <div class="row">
 		   <div class="col-md-offset-2 col-md-8">
-			 <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+			 <!--< class="carousel slide" data-ride="carousel" id="quote-carousel">-->
    
 			   <div class="carousel-inner">
 			   
 				 <div class="item active">
 				   
-					 <div class="row">
+				<!--	 <div class="row">
 					   </div>
-					   <div class="divider"></div>
-						   <!--Tab to further elaborate on our project-->
-						 <h1><p.l>Project Objective</p.l></h1>
+					   <div class="ex2">
+						 <h2>Project Description</h2>
 				
 					   <div class="col-sm-12 text-center">
-						 <p>Water is the most crucial resource to humans, however there are many more uses of water then you may think.<br>
-					   Water is important for many day to day activities, listing from using kitchen appliances, plumbing, health and hobbies.<br>
-				   With water being a crucial part of all of our lives, there is some data surrounding water that may be needed.
-			   <br>Water PH or Hardness may be important to some professions such as plumbing, or hobbies such as fish keeping.<br>
-		   Water Near You aims to make these water perameters easily accessible to the public, for no cost. </p>
+						<br><p.l>waterLog will be an application in which people can obtain pertinent water parameters for most main cities in Australia, later this will be expanded to most of the world's countries. <br>The water parameters presented to the user will be derived from the destination’s readily available tap water and all data will be gained through government and/or official company sources and databases.   </p.l>
 					   </div>
-					 </div>
+
+					 <div class="row">
+					</div>
+					  <br><h2>Overview</h2>
+					<div class="col-sm-12 text-center">
+						<h4>Topic <br></h4>
+						<p.l>The parameters provided to the user from the waterLog application will include, general water hardness, PH, chlorine, trace elements and more. <br>Water is the most crucial resource to humans and animal-kind alike, these parameters will potentially assist a vast variety of people, those with health concerns, those wanting to gain the best from their home appliances (some minerals in water can cause build up on and damage kitchen appliances), professional fields (hydroponics, construction), and animal lovers, especially aquatic. <br> 
+						waterLog will source and collate the historical and current data reported by each major city’s multiple water management companies, we will compile all relevant information into a database to be deployed in a smart phone application and website. The data will be presented in a clean, professional looking user-oriented design. The focus will be to provide users with appropriate data in an instantaneous and uncomplicated way. </p.l><br><br>
+						<h4>Motivation <br></h4>
+						<p.l>The motivation behind waterLog came from one of our group members owning fish, Max Torti had recently purchased a fish tank and pet fish, so become interested in maintaining their optimal environmental conditions. <br>He discovered fish required varying water parameters, generally related to where they were naturally found (e.g. fish from Africa require harder and less acidic water). To modify the water in his fish tank to ensure it best suited his new fish, Max needed accurate, current data on the water. 
+						Max discovered gaining this information was more complicated than he had expected, he searched multiple websites and applications to find the information available was lengthy scripts of data, unreliably sourced or not specific to his area. He soon conceded and bought himself a water test kit. </p.l><br><br>
+						<h4>Landscape <br></h4>
+						<p.l>We have been unable to find a website or application which provides similar water data tailored to the purposes we have outlined. Water Management companies around Australia have information available on their respective websites, however this data is generally in the form of a downloaded PDF with pages and pages of information. <br>There is a smart phone application which provides water catchment information, which provides data on the amount of water in our drinking catchments, not so much the mineral components of the water. <br>There are applications for detecting water underground or reminding users to drink the recommended amount of water each day for health purposes. 
+						<br>A website similar to our proposed application is https://water.australianmap.net/physical_chemical/hardness/ <br>
+						However, this website does not deliver the scope of parameters, collate or present the data to the user for a specific purpose and in a simple and targeted way, so we conclude there to be no comparable applications currently on the market and thus no competition. 
+						</p.l>
+					</div>
+
+				  <div class="row">
+				</div>
+				 <br> <h2>Aims</h2>
+				  <br><p.l>Water is the most important resource to humans; we rely upon it for survival, from drinking to growing our food sources. 
+					<br>waterLog aims to provide accessibility of accurate water data. We aim to deliver an easy to use platform which can be relied upon to provide valid data from reliable sources, at no cost to the user.
+					<h4>Priority Goals</h4>
+					
+					Our priority will initially be to provide data for water in Melbourne, Australia. We intend to provide the most relevant information effecting common water-based activities. Elements included in this data will be: <br> 
+					• PH Levels<br> 
+					• Colour (Pt/Co) <br> 
+					• Iron<br> 
+					• Manganese<br>
+					• Fluoride<br>  
+					• Calcium<br>  
+					• Hardness<br>  
+					• Magnesium<br>  
+					• Nitrate<br>  
+					• Alkalinity<br>  
+					*The provision of this data may vary from time to time and be dependent on the most recent testing results. <br>
+					We then hope to grow this data to a national level, covering all major cities in Australia. Australia is lucky enough to count most of its main water systems as safe and consumable. However, those who travel within Australia, will agree there are differing water taste between the cities. waterLog will break down the chemical components causing these taste variations (Hardness, PH, Calcium, Magnesium, Sodium and Chlorine can all cause changes in waters taste, colour or even texture). 
+					Our end goal for this application is to provide easily accessible data from across the world, especially in places that lack clean drinking water. <br>waterLog data will clearly distinguish a locations quality of water and its safe consumption for humans. Locals and travellers equally, will find value in the data. 
+					</p.l>
+
+			<div class="row">
+			</div>
+			  <h2>Scopes and Limits</h2>
+			  <br><p.l>Our scope is to create a simple application which allows users to see the water parameters and conditions in their current location (taken from their GPS signal) or a location of their choosing. Imminently, we are planning our focus on Melbourne, Australia, to ensure we have the capacity to identify and remedy any application glitches or limitations. <br>Once streamlined, we will broaden our data field to include significant locations in Australia and the world. Gathering this data will prove involved, so will require substantial resources. </p.l>
+
+		<div class="row">
+		</div>
+		  <h2>Tools and Technologies</h2>
+		  <br><p.l>Once the application is downloaded to a user’s phone, it will ask permission to obtain the user’s position, using GPS as to address when notification is sent. The user can opt in or out of the GPS, if for example the user opts out, they can manually set their city/destination via text or speech or just leave it blank. <br>Notifications will appear whenever there is a change in water quality, water containment and delivery infrastructure or contaminations in a user’s selected area. <br><br> 
+ 
+			Notifications will be sent depending on the user's location, as the notifications will be surrounding changes to the user’s water management system of their city/state. If the user doesn’t enter their destination or enable GPS, the notifications will not be sent, however they can view all notifications in the app itself under the “notifications” tab. <br><br>  
+			 
+			The tools needed to create both the mobile phone app and the website are as follows: <br><br>  
+			• A computer capable of running a programming encoder with access to the internet. <br>  
+			• HTML<br>  
+			• CSS<br>  
+			• Java<br>  
+			• JavaScript<br> 
+			 
+			<br>Potential tools needed in creation of waterLog: <br><br>  
+			• MySQL<br>  
+			• Python<br> 
+			• Swift<br>  
+			 
+			The main skills required for constructing waterLog is programming, due to our project being completely software related there is little else needed. Knowledge in multiple different programming languages will be needed, HTML/CSS will be used to create the website, Java will be used to make the mobile phone application (for devices running Android)and JavaScript will be used to make the interactive map. <br>  
+			Other programming languages may be needed for the creation of waterLog, MySQL may be needed to create a database in which all of the data is stored, Python may be needed to further extend the capabilities of the app and interactive map and Swift may be needed to create a version of the app for devices running IOS operating system. <br> 
+			To store our data and host our application, we will look to operate via cloud services, a PaaS server for data storage and an IaaS service to host the applications themselves. waterLog chose to go for an IaaS service as we feel it is the most customisable and offers more freedom, as we decide the operating system and overall setup of the server and its software. 
+			</p.l>
+
+	<div class="row">
+	</div>
+	  <br><h2>Testing</h2>
+	  <br><p.l>Testing will be completed internally initially, however, once we know the application is functional at its base level we plan to introduce the Usertesting platform (usertesting.com) to find 5-10 beta testers in Melbourne to test and ensure the application is functioning and providing the correct data, it will also be useful to see how easy they find the user interface and flow of the application. <br>Usertesting also records their screens and asks them to share their thoughts so it will offer us a better understanding of the applications limitations and areas to improve on for the future release. </p.l>
+
+<div class="row">
+</div>
+  <br><h2>Risks</h2>
+  <p.l>•	Copy write laws restricting our access to fundamental data and information. <br> 
+	•	Our team’s entry level skill set for building applications may constrain our production ability. <br> 
+	•	Associated costs for expert services to assist and supplement our group skill sets could challenge our budget. <br> 
+	•	Funding impediments, we aim to raise revenue through paid advertising which will be sort during the development phase. There is no guarantee the revenue raised will cover the set-up costs, leaving us in financial trouble. 
+	</p.l>
+</div>-->
+
+<div class="ex3"> 
+
+	<div class = “row”> 
+	
+	</div> 
+	<h2>Plans and Progress<br>
+	<h6>How it started:</h6> 
+	
+	<p.l>As a very diverse group we naturally have a varying array of hobbies between us. One of our members, Max, had large fish tanks filled with exotic fish. This initial inspiration nurtured the idea of an application to give the correct information about the water in your area/city. <br> 
+	
+	We created waterlog as a way the anyone could obtain all the information that they could possibly need about your local water. </p.l> 
+	
+	  
+	
+	<br> <br><h6>What it will do?</h6>
+	
+	<p.l> waterLog will be an application for both mobile phones and computer, this application will be free of charge to users. The focus for waterLog is to provide legitimate and relevant data surrounding water to the public, to inform them of relevant information of the water quality near them. <br> 
+	The design focus of the waterLog application is to provide all necessary data in a clean, professional, user oriented and easily understandable design. <br> 
+	
+	 
+	All applications offered by waterLog will have the same GUI, unless decided against in the future. waterLog's GUI will include multiple tabs including FAQ, settings and notifications. The core of the waterLog GUI will be a map of the user entered country, in which they can click on cities/states to see the water data for that given area. <br><br> 
+	Users will be prompted on the first launch of the waterLog application to either allow location tracking, or enter their location manually. This is so we can present the relevant map on their screen, and to provide them with notifications regarding their location. The user can decide to manually input their location, or even leave it blank and use the search bar to find the data they are seeking. <br> 
+	Currently the computer application is the only service we offer, however we are planning on creating the mobile phone variants in the coming weeks. The mobile phone variants will include both IOS and Android operating systems. Data for Melbourne's water quality is the only current information we present to users, as this is our ‘beta’ stage of production. With the creation of the waterLog mobile phone applications, we will be adding more data for different regions in the world. <br><br> 
+	
+	 
+	The application consists of a database – currently made using Java, however as the data increases, we will move to a database focused language such a SQL. <br> 
+	The database will store all data for each region of the world we offer our services to, the database was built so that when a user clicks on a city/state the information regarding that area is shown. The database will be maintained by its creator, Andrew Rijs, with all up-to-date information sourced from government or water treatment plant reports and websites. <br> 
+	waterLog will also have a FAQ page, in which will list many beneficial facts and tips for users from many different professions/hobbies. Users will have the option to create accounts with waterLog, with this they can save multiple preferred locations to quickly ‘travel’ to them on the map. Users with accounts can also sign up to receive emails from our developers and team members, with updates on any new updates coming to waterLog and helpful information regarding water.<br><br> 
+	<br><br> <img src="	https://user-images.githubusercontent.com/70696652/100183276-3b013980-2f2a-11eb-8c66-b64a2e6b4be7.png"height=20% width=20% class=UIPhoto1>
+	<img src="https://user-images.githubusercontent.com/70696652/100183359-76036d00-2f2a-11eb-831e-4b67dcb659ce.png"height=20% width=20% class=UIPhoto2>
+	<br><br><br>waterLog will be hosted using a PaaS plan, as our current team doesn’t have the hardware or premises to use our own servers. 
+	<br> 
+	
+	waterLog will be an application that is free to use, that will inform users of water data in regions across the world. Our goal at waterLog is to promote the education surrounding relevant water data and information. Water data is relevant for many professions, health, leisure and appliance needs, as a result millions of people can find use out of our app. 
+	waterLog will be completely transparent regarding user privacy, ensuring your data is always protected. Due to waterLog being a free application, the money generated will be through promoting advertisement on our platforms. WaterLog will never sell any user related data, user data such as location will only be used to show notifications. Other than notifications all other data is simply unneeded, therefore we disregard it after assigning users to the chosen location. Our database will be fully encrypted and protected from leading cyber security experts.<br><br>
+	  
+	 
+	
+	waterLog's aim is to provide the general public with a source for easily accessible data surrounding water, this is relevant to many fields and leisure activities. waterLog will also provide information surrounding water through an FAQ tab in the application. 
+	Once waterLog is out of the ‘beta’ stage and starts gaining more countries data, this application can be used to potentially save human lives. With many countries not having easily accessible clean drinking water, this application can help tourists determine where they can or can’t drink. 
+	waterLog aims to do this all free to the end user, only gaining revenue through advertisements and donations, while also ensuring all user data is encrypted and protected. </p.l> 
+	 
+	 
+	
+	<br> <br> <h6>How will it do it?</h6> 
+	
+	<p.l> The waterLog application will be made for pc and ios/android devices. The application consists of a simple, yet professional looking GUI in which any user should understand its use immediately. The core aspect of this GUI is an interactive map, of which when the user selects a region the stats of available water management systems will be shown. 
+	<br> 
+	Upon initial launch of the waterLog applications, all data will be stored in a Java database. However, as the userbase and data grows over time, a more fitting SQL database will be created. Using this Java database, the GUI presents the user with reliable and up-to date data. 
+	
+	 <br> 
+	
+	In addition to the MVP java database/ui we will be making an Entity-Relationship Model diagram as the next step before creating an SQL database. 
+	 <br> 
+	ER Models are what you use to conceptualize and define key elements of data before committing to creating the database and includes entities (ie. 'Location ID', 'Location', 'Information Source', 'pH', 'Fluoride Content'), keys and relationships as core concepts. 
+	 <br> 
+	The diagram we make will use these concepts, as well as crow's feet notation to map out the transition to a fully-functioning database. </p.l> 
+	  
+	<br><br> <img src="https://user-images.githubusercontent.com/70696652/100183616-1bb6dc00-2f2b-11eb-9f10-cf12a5e8b718.png"height=80% width=80% class=imgcenter>
+	
+	  
+	
+	 
+	
+	  
+	
+	  
+	
+	<br> <br> <h6>The story of the project?</h6>  
+	
+	<p.l> Our project plan “waterLog” has seen massive changes throughout the last 2 months, with it initially only being focused on providing fish keepers valuable information, to providing potentially lifesaving information to the whole world. Our group found many ways people can benefit from data surrounding water in their local area, may it be profession, leisure or for simple consumption. <br> 
+	
+	 
+	waterLog originally started to help fish keepers, as I (Max Torti) own fish myself. The initial plan was to develop a GUI that would control a database, in this database would be certain water parameters for each state of Australia. I found that water parameters can be extremely important when keeping fish, parameters such as hardness and PH. <br><br> 
+	
+	 
+	While working with the waterLog team during assignment 2, the project plan started to expand its horizons. Due to our group being very diverse, each member found different professions and activities that could benefit from the parameters we would provide. Our plan began to include aspects that people other than fish keepers could find useful, such as elements in the water that may impact plumbing and shower/tap outlets.  
+	The plan for the software itself stayed relatively the same, however as time went on, we further grew our idea regarding the core aspects of the application. We cemented the idea to make a GUI that included a map of Australia, when a user hovers their mouse over cities in Australia, the data of water provided through the tap for that location would be listed. It was decided for the initial launch waterLog would only serve Australia, however we plan to expand our services to the rest of the world as time goes on. <br><br> 
+	
+	  
+	
+	Once the main aspects of waterLog was formed and we began thinking about prototypes, multiple features were brought up that could help our users. Features such as an FAQ tab could help expand our relevancy to people with different interests/needs, such as providing information regarding common problems surrounding water.  
+	We decided to use Java when developing the backend of our application, as our group members had the most experience with this language. We used Java to store all data surrounding water in a small and simple database. Currently waterLog is only a computer application but once we expand, we will also introduce a mobile phone application for both IOS and Android devices. <br> 
+	
+	  
+	
+	<br>Throughout the lifespan of waterLog, there have been several large changes. waterLog went from a tool for a small hobby, to being applicable and potentially helpful to all human beings. waterLog is currently a computer application, with helpful aspects such as a responsive map, FAQ tab and relevant up to date information surrounding water data.  
+	We offer our services to residence of Melbourne Australia and the surrounding area, in the coming months we will be developing a mobile phone application, while also increasing the number of countries we offer our services to.  
+	</p.l> 
+	 
+	
+	<br> <br> <h6>How far we have come developing features?</h6>  
+	
+	<br><p.l> Initially the project was going to be simply an archive of information for the public to use. After discussions with the team, we realized that much more was possible with the initial idea. From a simple archive we started developing extra features. <br> 
+	
+	We have several features that make the design component of our application. The first feature that was discussed was a modular map of Australia that shows the water quality and the chemical parameters for the most populated areas of the region. (shown below). This gives what could have been a drop down list a professional looking platform to convey the information to our audience. The map will be created using java and it will run off a table of information built in Java also.  <br> 
+	
+	Another design feature is the front-end UI that we are using to convey information. The screenshot below demonstrates our straightforward user-friendly user interface. Using this UI we have displayed our other quality of life features like our FAQ and our Search Bar. </p.l> <br><br>
+	<br><br> <img src="https://user-images.githubusercontent.com/70696652/100183327-5d935280-2f2a-11eb-96cd-dc4804492b5f.png"height=20% width=20% class=UIPhoto1>
+	<img src="https://user-images.githubusercontent.com/70696652/100183348-6b48d800-2f2a-11eb-822a-49d530e7aa4c.png"height=20% width=20% class=UIPhoto2>
+	
+	<br>
+	
+	  
+	
+	<br> <br> <h6>Why are we doing waterlog?</h6>
+	
+	<br><p.l> WaterLog was originally designed for fish keepers. Certain fish require very specific circumstances in order to survive in a fish tank. These parameters can include but are not limited to, PH level, Iron, Magnesium, Calcium, water hardness and color. Although the original reason for the development of waterLog was very specific, there is a large amount of both commercial and residential application. The WaterLog application was originally constructed because of a need for a hub of information. We are designing a central source of information where you will be able to learn all the details that you may need about your city's drinking water. <br><br> 
+	
+	Upon a google search of the water in an area we realized that there are so many different reports and sources all focusing on one aspect of the water, making it hard to find the most recent figures for all the permeameters that you might need to meet for specific vocations like fine gardening and fish keeping. Even when you find the most recently updated water parameters for the area, you will have to filter through the other 30 pages of information to make sure you receive all the relevant information you need.  You will not need to do hours of study on multiple different websites, all with different results or wait a week for a water testing kit to arrive to be able to reliably test a water source. With waterLog you will be able to know exactly what you will need to know about the water available in an area in seconds. <br><br> 
+	
+	  
+	
+	There are a few vocations or hobbies that could make more use of the waterLog application than others. These hobbies are arguably our number one audience as these people will consistently check the application which means that they either have more chance of buying the ad free monetized version or just simply viewing more ads on the application to raise revenue to further the project. The hobbies or vocations that will most likely find this application helpful are listed below, these will be our target audience: <br> 
+	
+	Fish Owners <br> 
+	
+	Fine Gardeners <br> 
+	
+	Pool Owners <br> 
+	
+	Pets Owners (mostly for dental health) <br> 
+	
+	People with specific water needs (either medical or preference) <br> 
+	
+	Industrial Agricultural applicantion  <br> 
+	
+	  
+	
+	There is a multitude of reasons that the public will need access to information like this. When moving into a new town/city we often look at the public transport options, the noise levels at your location, local amenities and even infrastructure. There will rarely be any attention drawn to the most important resource available to us as organisms, water. We often associate issues with drinking water with less developed countries. Tates is one he United St of the largest and most fundamentally developed countries in the world. Yet they have 32 million cases of waterborne disease that occur nationwide every year. (https://theconversation.com/the-us-drinking-water-supply-is-mostly-safe-but-thats-not-good-enough-115028) </p.l><br><br> <br><br> 
+	
+	<h2>Project Description</h2>
+				
+	<div class="col-sm-12 text-center">
+	 <br><p.l>waterLog will be an application in which people can obtain pertinent water parameters for most main cities in Australia, later this will be expanded to most of the world's countries. <br>The water parameters presented to the user will be derived from the destination’s readily available tap water and all data will be gained through government and/or official company sources and databases.   </p.l>
+	</div>
+
+  <div class="row">
+ </div>
+   <br><h2>Overview</h2>
+ <div class="col-sm-12 text-center">
+	 <h6>Topic <br></h6>
+	 <p.l>The parameters provided to the user from the waterLog application will include, general water hardness, PH, chlorine, trace elements and more. <br>Water is the most crucial resource to humans and animal-kind alike, these parameters will potentially assist a vast variety of people, those with health concerns, those wanting to gain the best from their home appliances (some minerals in water can cause build up on and damage kitchen appliances), professional fields (hydroponics, construction), and animal lovers, especially aquatic. <br> 
+	 waterLog will source and collate the historical and current data reported by each major city’s multiple water management companies, we will compile all relevant information into a database to be deployed in a smart phone application and website. The data will be presented in a clean, professional looking user-oriented design. The focus will be to provide users with appropriate data in an instantaneous and uncomplicated way. </p.l><br><br>
+	 <h6>Motivation <br></h6>
+	 <p.l>The motivation behind waterLog came from one of our group members owning fish, Max Torti had recently purchased a fish tank and pet fish, so become interested in maintaining their optimal environmental conditions. <br>He discovered fish required varying water parameters, generally related to where they were naturally found (e.g. fish from Africa require harder and less acidic water). To modify the water in his fish tank to ensure it best suited his new fish, Max needed accurate, current data on the water. 
+	 Max discovered gaining this information was more complicated than he had expected, he searched multiple websites and applications to find the information available was lengthy scripts of data, unreliably sourced or not specific to his area. He soon conceded and bought himself a water test kit. </p.l><br><br>
+	 <h6>Landscape <br></h6>
+	 <p.l>We have been unable to find a website or application which provides similar water data tailored to the purposes we have outlined. Water Management companies around Australia have information available on their respective websites, however this data is generally in the form of a downloaded PDF with pages and pages of information. <br>There is a smart phone application which provides water catchment information, which provides data on the amount of water in our drinking catchments, not so much the mineral components of the water. <br>There are applications for detecting water underground or reminding users to drink the recommended amount of water each day for health purposes. 
+	 <br>A website similar to our proposed application is https://water.australianmap.net/physical_chemical/hardness/ <br>
+	 However, this website does not deliver the scope of parameters, collate or present the data to the user for a specific purpose and in a simple and targeted way, so we conclude there to be no comparable applications currently on the market and thus no competition. 
+	 </p.l>
+ </div>
+
+<div class="row">
+</div>
+<br> <h6>Aims</h6>
+<p.l>Water is the most important resource to humans; we rely upon it for survival, from drinking to growing our food sources. 
+ <br>waterLog aims to provide accessibility of accurate water data. We aim to deliver an easy to use platform which can be relied upon to provide valid data from reliable sources, at no cost to the user.
+ <br><br><h4>Priority Goals</h4>
+ 
+ Our priority will initially be to provide data for water in Melbourne, Australia. We intend to provide the most relevant information effecting common water-based activities. Elements included in this data will be: <br> 
+ • PH Levels<br> 
+ • Colour (Pt/Co) <br> 
+ • Iron<br> 
+ • Manganese<br>
+ • Fluoride<br>  
+ • Calcium<br>  
+ • Hardness<br>  
+ • Magnesium<br>  
+ • Nitrate<br>  
+ • Alkalinity<br>  
+ *The provision of this data may vary from time to time and be dependent on the most recent testing results. <br>
+ We then hope to grow this data to a national level, covering all major cities in Australia. Australia is lucky enough to count most of its main water systems as safe and consumable. However, those who travel within Australia, will agree there are differing water taste between the cities. waterLog will break down the chemical components causing these taste variations (Hardness, PH, Calcium, Magnesium, Sodium and Chlorine can all cause changes in waters taste, colour or even texture). 
+ Our end goal for this application is to provide easily accessible data from across the world, especially in places that lack clean drinking water. <br>waterLog data will clearly distinguish a locations quality of water and its safe consumption for humans. Locals and travellers equally, will find value in the data. 
+ </p.l>
+
+<div class="row">
+</div>
+<br><h6>Scopes and Limits</h6>
+<br><p.l>Our scope is to create a simple application which allows users to see the water parameters and conditions in their current location (taken from their GPS signal) or a location of their choosing. Imminently, we are planning our focus on Melbourne, Australia, to ensure we have the capacity to identify and remedy any application glitches or limitations. <br>Once streamlined, we will broaden our data field to include significant locations in Australia and the world. Gathering this data will prove involved, so will require substantial resources. </p.l>
+
+<div class="row">
+</div>
+<br><h6>Tools and Technologies</h6>
+<br><p.l>Once the application is downloaded to a user’s phone, it will ask permission to obtain the user’s position, using GPS as to address when notification is sent. The user can opt in or out of the GPS, if for example the user opts out, they can manually set their city/destination via text or speech or just leave it blank. <br>Notifications will appear whenever there is a change in water quality, water containment and delivery infrastructure or contaminations in a user’s selected area. <br><br> 
+
+Notifications will be sent depending on the user's location, as the notifications will be surrounding changes to the user’s water management system of their city/state. If the user doesn’t enter their destination or enable GPS, the notifications will not be sent, however they can view all notifications in the app itself under the “notifications” tab. <br><br>  
+
+The tools needed to create both the mobile phone app and the website are as follows: <br><br>  
+• A computer capable of running a programming encoder with access to the internet. <br>  
+• HTML<br>  
+• CSS<br>  
+• Java<br>  
+• JavaScript<br> 
+
+<br>Potential tools needed in creation of waterLog: <br><br>  
+• MySQL<br>  
+• Python<br> 
+• Swift<br>  
+
+The main skills required for constructing waterLog is programming, due to our project being completely software related there is little else needed. Knowledge in multiple different programming languages will be needed, HTML/CSS will be used to create the website, Java will be used to make the mobile phone application (for devices running Android)and JavaScript will be used to make the interactive map. <br>  
+Other programming languages may be needed for the creation of waterLog, MySQL may be needed to create a database in which all of the data is stored, Python may be needed to further extend the capabilities of the app and interactive map and Swift may be needed to create a version of the app for devices running IOS operating system. <br> 
+To store our data and host our application, we will look to operate via cloud services, a PaaS server for data storage and an IaaS service to host the applications themselves. waterLog chose to go for an IaaS service as we feel it is the most customisable and offers more freedom, as we decide the operating system and overall setup of the server and its software. 
+<br><br><br>
+As in Assignment 2, the tools we have used are Microsoft Teams, Git-Hub, Git-Hub CMD, TextEdit, Sublime text and Visual Studio, MySQL<br>
+
+	Continuing with our communication platform from Assignment 2, we used Microsoft Teams to conduct and record meetings, for general communication and to upload and share files and documents.<BR>
+	
+	To create our new website for this assignment, we forked a copy of our Assignment 2 website which was hosted on Github. We experienced a sharp learning curve with the operation of Github from Assignment 2, initially each group member was coding, uploading, and committing their individual work, however, this was causing previously committed work to be over-ridden. For this assignment and per advice from our course tutors, we assigned roles for Github. Max was responsible for coding all content, which he then sent to Ben, who uploaded it to the Github repository. This was a much smoother and more reliable process, which is represented by the trimmer commit record trail.<br>
+<br><br>Here is the current computer variant of our application:
+<br><br> <img src="https://user-images.githubusercontent.com/70696652/100231530-e0400000-2f72-11eb-98b6-ff25876d77e2.PNG"height=80% width=80% class=imgcenter>
+</p.l>
+
+<div class="row">
+</div>
+<br><h6>Testing</h6>
+<br><p.l>Testing will be completed internally initially, however, once we know the application is functional at its base level we plan to introduce the Usertesting platform (usertesting.com) to find 5-10 beta testers in Melbourne to test and ensure the application is functioning and providing the correct data, it will also be useful to see how easy they find the user interface and flow of the application. <br>Usertesting also records their screens and asks them to share their thoughts so it will offer us a better understanding of the applications limitations and areas to improve on for the future release. </p.l>
+
+<div class="row">
+</div>
+<br><h6>Risks</h6>
+<p.l>•	Copy write laws restricting our access to fundamental data and information. <br> 
+•	Our team’s entry level skill set for building applications may constrain our production ability. <br> 
+•	Associated costs for expert services to assist and supplement our group skill sets could challenge our budget. <br> 
+•	Funding impediments, we aim to raise revenue through paid advertising which will be sort during the development phase. There is no guarantee the revenue raised will cover the set-up costs, leaving us in financial trouble. 
+</p.l>
+</div>
+</div>
+</div>
+
+<div class="container" id="section3">
+	<div class="container">  
+ <div class="row">
+  <div class="col-md-offset-2 col-md-8">
+	<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+
+	  <div class="carousel-inner">
+	  
+		<div class="item active">
+		  
+			<div class="row">
+			  </div>
+			  <div class="divider"></div> 
+
+
+	<!--<div class="ex2">   		  
+				  <h2>WaterLog Job Descriptions </h2>
+
+<h6>Job title: </h6><p.l> Front-end Developer<br> 
+
+<h6> Reporting to: </h6> <p.l> Product Delivery Manager <br> 
+
+<h6> Salary: </h6> <p.l> $110,000 per annum <br> 
+
+<h6> Hours: </h6> <p.l> Full-Time <br> 
+
+ 
+
+<br> <h4> Purpose of the Position </h4> <br> 
+
+<p.l> The WaterLog Front-end Developer will specialise in creating the user-face components of our application and web-based content. They will work to our Software Development Cycle (SDLC) to analyse, design, develop, test, deploy, document, and assess our application and website. <p.l>  
+
+ 
+
+<br> <h4> Responsibilities and Duties </h4> <br>  
+
+<h6> Responsibility 1:</h6><br><p.l> Converting WaterLog design concepts and wireframes into high quality HTML, CSS, Java and JavaScript code. <p.l> <br> 
+
+<h6> Responsibility 2:</h6><br><p.l> Ensuring consistent communication across all departments and senior management with regards to the development progress, decision making and record keeping. <p.l> <br> 
+
+<h6> Responsibility 3:</h6><br><p.l> Manage and recommend UI distributions, developments, and structural enhancements by adhering to release and change processes. <p.l> <br> 
+
+<h6> Responsibility 4:</h6><br><p.l> Continual improvement and upgrade of user-face elements to ensure optimum performance across an extensive range of web devices and browsers. <br> <br> 
+
+ 
+
+ 
+
+Being in a start-up environment, the Front-end Developer position will include scope for a full stack role, albeit a focus on the user-end, there will be a requirement to work across the backend of development. <div> <br> 
+
+ 
+
+ 
+
+<h4> Academic Qualifications and Work Experience </h4> <br> 
+
+<h6>Essential qualifications </h6><p.l> <br> 
+
+Certificate IV or above in Computer Science with a major in Programming or Software Development. <br> 
+
+Responsive and mobile design skills <br> 
+
+A minimum of 3-5 years’ experience in a Frontend Developer role with portfolio evidence and professional references. </p.l> <br> 
+
+Desirable qualifications <p.l> <br> 
+
+Experience with Tech Start-Ups <br>  
+
+Experience with JQuery <br> 
+
+Experience with CSS Preprocessors <br> 
+
+Experience with RESTful Services and APIs <br> 
+
+Experience in Python and Swift will be considered desirable.  </p.l> <br> 
+
+<br> <h4> Personal qualities and behavioural traits </h4> <br> 
+
+<h6>Essential qualities or behaviours </h6><p.l> <br> 
+
+Ability to work autonomously <br> 
+
+Problem solving skills <br> 
+
+Excellent written and verbal communication skills <br> 
+
+Provide support and liaise with team members and departments. </p.l> <br> 
+
+Desirable qualities or behaviours <p.l> <br> 
+
+Self-driven, enthusiastic individual <br> 
+
+Ability to adapt to a broad business scope – we are a start-up business, so our direction is evolving. </p.l> <br> 
+
+<br><br><br><br><br><br><h6>Job title:</h6> <p.l>Database Administrator </p.l><br> 
+
+<h6> Reporting to: </h6> <p.l> Product Delivery Manager </p.l> <br> 
+
+<h6> Salary: </h6> <p.l> $110,000 per annum </p.l> <br> 
+
+<h6> Hours: </h6> <p.l> Full-Time </p.l> <br> 
+
+ 
+
+<br> <h4>Purpose of the Position</h4> <br> 
+
+<p.l>The WaterLog Database Administrator will manage our database systems and environment. They will be required to develop, employ, and maintain customised databases to support our evolving application and website to ensure maximum efficiency, storage, and access. </p.l> <br> 
+
+ 
+
+<h4> Responsibilities and Duties </h4> <br> 
+
+<h6> Responsibility 1: </h6> <p.l> Designing, deploying, and maintaining our database systems including the architecture, configuration, schedules, procedures, standards, and naming principles in a secure and accessible method. </p.l> <br> 
+
+ 
+
+<h6> Responsibility 2: </h6> <p.l> Assessing our design requirements and strategies and constructing tailored database solutions including distribution and storage practices. </p.l> <br> 
+
+<h6> Responsibility 3: </h6> <p.l> Liaising with all team members, especially our application developers and communicating transparently with management to understand our data needs. </p.l> <br> 
+
+<h6> Responsibility 4: </h6> <p.l> Testing, upgrading and resolving issues with our database systems including security performance, debugging, tracking, reproducing, logging, backing up, and data recovery plans to ensure optimal performance and reliability. </p.l> <br> 
+
+<h6> Responsibility 5: </h6> <p.l> Administering and managing user access and privileges. </p.l> <br> 
+
+<h6> Responsibility 6: </h6> <p.l> Conducting staff training briefings on appropriate databases use. <br> <br> 
+
+ 
+
+ 
+
+The Database Administrator will attend weekly department meetings to ensure they remain fully current with our companies’ access, security, backup and storage requirements. </p.l> <br> 
+
+ 
+
+ 
+
+<h4> Academic Qualifications and Work Experience </h4> <br> 
+
+<h6> Essential qualifications </h6> <p.l> <br> 
+
+A Certificate IV or above in Database Design and Development or an associated IT field. <br> 
+
+A minimum of 3-5 years’ in a similar role with database management experience in MySQL. <br> 
+
+SQL coding and performance reviewing and optimisation. <br> 
+
+Experience performing root cause analysis. <br> <br> </p.l> 
+
+<h6> Desirable qualifications </h6> <br> <p.l> 
+
+Additional certificates in Database Administration from industry-recognised vendors. <br> 
+
+Australian Computer Society membership <br> 
+
+Experience in Python and Swift will be considered desirable. <br> 
+
+Application programming experience using HTML, CSS, Java and JavaScript will be a desirable attribute for this role. </p.l> <br> <br> 
+
+<h4> Personal qualities and behavioural traits </h4> <br> 
+
+<br> <h6> Essential qualities or behaviours <p.l> </h6> <br> 
+
+Sound understanding of emerging technologies and design advances. <br> 
+
+Ability to work autonomously <br>  
+
+Problem solving skills <br> 
+
+Excellent written and verbal communication skills <br> 
+
+Provide support and liaise with team members and departments. <br> <br> </p.l> 
+
+<h6> Desirable qualities or behaviours <p.l> </h6> <br> 
+
+Self-driven, enthusiastic individual <br> 
+
+Ability to adapt to broad business scopes – we are a start-up business, so our direction is evolving. </p.l> <br> 
+
+<br><br><br><br><br><br><h6>  
+
+	<h6>Job title: </h6><p.l> Business Development Manager </p.l><br> 
+	
+	<h6> Reporting to: </h6> <p.l> General Manager </p.l> <br> 
+	
+	<h6> Salary: </h6> <p.l> $110,000 per annum </p.l> <br> 
+	
+	<h6> Hours: </h6> <p.l> Full-Time </p.l> <br> 
+	
+	 
+	
+	<br> <h4>Purpose of the Position </h4> <p.l> <br> 
+	
+	The WaterLog Business Development Manager will be primarily responsible for developing our existing and new client base in two key areas, revenue, and exposure. Our revenue stream is derived from paid advertising and exposure from our customer base. </p.l> <br> 
+	
+	 
+	
+	<br> <h4> Responsibilities and Duties </h4> <br> 
+	
+	<h6> Responsibility 1: </h6> <p.l> Identify and develop growth strategies and proposals, by aligning business niches and strengths with our client’s needs. This includes cold calling prospective clients and following through with potential leads. </p.l> <br> 
+	
+	<h6> Responsibility 2: </h6> <p.l> Manage and maintain existing valued relationships with longevity in mind. Ensuring a partnership is created between WaterLog and our clients. </p.l> <br> 
+	
+	<h6> Responsibility 3: </h6> <p.l> Educate and be well versed in WaterLog products and provide specialist and tailored advice to our clients. </p.l> <br> 
+	
+	<h6> Responsibility 4: </h6> <p.l> Remain current with local and international technology trends, progressions, and innovations to ensure Waterlog is ahead of its competitors and can adapt with market demands. </p.l> <br> 
+	
+	<h6> Responsibility 5: </h6> <p.l> Full sales life cycle including drafting, reviewing and negotiating client contracts to delivery of product. <br> <br> 
+	
+	Monthly sales targets and forecasts will be set and reviewed by Senior Management. Quarterly and annual meetings will focus more broadly on sales direction and strategy. </p.l> <br> 
+	
+	<h4> Academic Qualifications and Work Experience </h4> <br> 
+	
+	<br> <h6> Essential qualifications </h6> <p.l> <br> 
+	
+	A Bachelor degree or above in business, economics, finance, marketing or other related field. <br> 
+	
+	A minimum of 3-5 years’ experience in senior IT sales and marketing. Evidence of a proven sales track record and capacity to met and exceed sales target. <br> 
+	
+	New Business Development experience. </p.l> <br> 
+	
+	<br> <h6> Desirable qualifications </h6> <p.l> <br> 
+	
+	Experience with Tech Start-Ups <br> 
+	
+	Global network and contacts <br> 
+	
+	<h4> Personal qualities and behavioural traits </h4> </p.l> <br> 
+	
+	<h6> Essential qualities or behaviours </h6> <p.l> <br> 
+	
+	Technical knowledge <br> 
+	
+	Ability to work autonomously <br> 
+	
+	Excellent written and verbal communication skills <br> 
+	
+	Provide support and liaise with team members and departments. </p.l> <br> 
+	
+	<h6> Desirable qualities or behaviours </h6> <p.l> <br> 
+	
+	Self-driven, enthusiastic individual <br> 
+	
+	Ability to adapt to broad business scopes – we are a start up business, so our direction is evolving. </p.l> <br> 
+</div>
+</div>-->
+<br><br><br><br>
+  <h1>Group Processes and Communications</h1>
+  <p>We have remained the same group from Assignment 2, so have found ourselves already settled into a communication and processes routine. We have varying schedules outside this course; however, each team member manages contact at least two to four times a week (if not more when content is being finalised) with the other team members responding within 24 – 48 hours. <br> 
+	We meet virtually in recorded meetings twice a week on Thursdays and Sundays via Microsoft Teams, each meeting has an updated agenda for confirmation of discussion points and future referral and clarification. <br>Between formal meetings, we communicate using notes, content upload and chats on the Microsoft Teams group board. All team members agree and are compliant with our communication frequency and method.   
+	</p>
+				<div class="col-sm-12 text-center">
 				   
 				 </div>
+				</div>
 				 <div class="divider"></div>
 				 <div class="item">
 				   
 					 <div class="row">
 					   <div class="col-sm-12 text-center">
 						   <!--Tab for team overview - possibly talk about ideal jobs here-->
-						   <h1><p.l>Our Team</p.l></h1>
+						   <h1>Our Team</h1>
 					   </div>
 					   <div class="col-sm-12">
 						<p>Our team consists of 6 individuals who have interest and experience in many aspects of I.T, <br>including cyber security, data management, web development, cloud computing and hardware.
@@ -594,8 +1185,340 @@
 				   <div class="divider"></div>
 				   <div class="divider"></div>
 				   <div class="divider"></div>
+
+				   <p><h1><br><br>Roles Within the Group</h1></p>
+				   <br><p.1>
+					When the project was started there were no roles defined by the group. Instead, we started gravitating towards roles that can be defined. There is a large variation in personalities in our group, this allows us to cover a lot of ground in terms of content that people are familiar with. As we haven’t assigned roles, please find the roles that are closest to our current workloads and abilities. <br>
+					<br><h4>Max – Technical Project Manager</h4>
+					Max is the creator of the origin of waterLog. His Technical Manager role requires him to be on top of the development of features of the application as well as being in close communication with the rest of the team. <br>
+					<h4>Imogen – Business Manager </h4>
+					Imogen’s leaderships skills along with her technical knowledge her two most important tools when it comes to organizing our group and applying her knowledge to our content. <br>
+					<h4>Andrew – Senior Developer</h4>
+					Andrew’s role requires strong knowledge of system architectures well as a broad knowledge of programming. He has used this to create an array of artefacts along with developing the backend operating system of waterLog using Java. <br>
+					<h4>Ben – Back End Developer</h4>
+					Ben’s role requires him to use his strong IT knowledge as it involves the use of Git-Hub, basic programming and CSS/HTML knowledge. <br>
+					<h4>Henry – User Interface Designer/Design manager </h4>
+					Henry is our artistic mind of the group. His design savvy thought process and ability to see perceive and convey in depth concepts in an appealing way made him our top choice as the design manager/UI designer. <br>
+					<h4>Liam – Systems administrator</h4>
+					As a system administrator Liams role requires him to overview the general workload, do basic coding and html/CSS and fill roles or positions to complete the team. <br> 
+					
+					
+				   </p.1>
+				   <div class="divider"></div>
+				   <div class="ex2">   		  
+					<h2>WaterLog Job Descriptions </h2>
+  
+  <h6>Job title: Front-end Developer<br>
+  
+  Reporting to: Product Delivery Manager <br> 
+  
+  Salary: $110,000 per annum <br> 
+  
+  Hours: Full-Time
+  
+   
+  
+  <br> <h4> Purpose of the Position </h4>
+  
+  <p.l> The WaterLog Front-end Developer will specialise in creating the user-face components of our application and web-based content. They will work to our Software Development Cycle (SDLC) to analyse, design, develop, test, deploy, document, and assess our application and website. <p.l>  
+  
+   
+  
+  <br><br> <h4> Responsibilities and Duties </h4> 
+  
+  <h6> Responsibility 1:</h6><p.l> Converting WaterLog design concepts and wireframes into high quality HTML, CSS, Java and JavaScript code. <p.l> <br> 
+  
+  <h6> Responsibility 2:</h6><p.l> Ensuring consistent communication across all departments and senior management with regards to the development progress, decision making and record keeping. <p.l> <br> 
+  
+  <h6> Responsibility 3:</h6><p.l> Manage and recommend UI distributions, developments, and structural enhancements by adhering to release and change processes. <p.l> <br> 
+  
+  <h6> Responsibility 4:</h6><p.l> Continual improvement and upgrade of user-face elements to ensure optimum performance across an extensive range of web devices and browsers. <br> <br> 
+  
+   
+  
+   
+  
+  Being in a start-up environment, the Front-end Developer position will include scope for a full stack role, albeit a focus on the user-end, there will be a requirement to work across the backend of development. <div> <br> 
+  
+   
+  
+   
+  
+  <br><h4> Academic Qualifications and Work Experience </h4>
+  
+  <h6>Essential qualifications </h6><p.l>
+  
+  Certificate IV or above in Computer Science with a major in Programming or Software Development. <br> 
+  
+  Responsive and mobile design skills <br> 
+  
+  A minimum of 3-5 years’ experience in a Frontend Developer role with portfolio evidence and professional references. </p.l> <br> 
+  
+  Desirable qualifications <p.l> <br> 
+  
+  Experience with Tech Start-Ups <br>  
+  
+  Experience with JQuery <br> 
+  
+  Experience with CSS Preprocessors <br> 
+  
+  Experience with RESTful Services and APIs <br> 
+  
+  Experience in Python and Swift will be considered desirable.  </p.l> <br> 
+  
+  <br> <h4> Personal qualities and behavioural traits </h4>
+  
+  <h6>Essential qualities or behaviours </h6><p.l>
+  
+  Ability to work autonomously <br> 
+  
+  Problem solving skills <br> 
+  
+  Excellent written and verbal communication skills <br> 
+  
+  Provide support and liaise with team members and departments. </p.l> <br> 
+  
+  Desirable qualities or behaviours <p.l> <br> 
+  
+  Self-driven, enthusiastic individual <br> 
+  
+  Ability to adapt to a broad business scope – we are a start-up business, so our direction is evolving. </p.l> <br> 
+  
+  <br><br><br><br><br><h6>Job title: Database Administrator<br> 
+  
+  Reporting to: Product Delivery Manager<br> 
+  
+  Salary: $110,000 per annum<br> 
+  
+  Hours: Full-Time<br> 
+  
+   
+  
+  <br> <h4>Purpose of the Position</h4>
+  
+  <p.l>The WaterLog Database Administrator will manage our database systems and environment. They will be required to develop, employ, and maintain customised databases to support our evolving application and website to ensure maximum efficiency, storage, and access. </p.l> <br> 
+  
+   
+  
+  <br><h4> Responsibilities and Duties </h4>
+  
+  <h6> Responsibility 1: </h6> <p.l> Designing, deploying, and maintaining our database systems including the architecture, configuration, schedules, procedures, standards, and naming principles in a secure and accessible method. </p.l> <br> 
+  
+   
+  
+  <h6> Responsibility 2: </h6> <p.l> Assessing our design requirements and strategies and constructing tailored database solutions including distribution and storage practices. </p.l> <br> 
+  
+  <h6> Responsibility 3: </h6> <p.l> Liaising with all team members, especially our application developers and communicating transparently with management to understand our data needs. </p.l> <br> 
+  
+  <h6> Responsibility 4: </h6> <p.l> Testing, upgrading and resolving issues with our database systems including security performance, debugging, tracking, reproducing, logging, backing up, and data recovery plans to ensure optimal performance and reliability. </p.l> <br> 
+  
+  <h6> Responsibility 5: </h6> <p.l> Administering and managing user access and privileges. </p.l> <br> 
+  
+  <h6> Responsibility 6: </h6> <p.l> Conducting staff training briefings on appropriate databases use. <br> <br> 
+  
+   
+  
+   
+  
+  The Database Administrator will attend weekly department meetings to ensure they remain fully current with our companies’ access, security, backup and storage requirements. </p.l> <br> 
+  
+   
+  
+   
+  
+  <br><h4> Academic Qualifications and Work Experience </h4>
+  
+  <h6> Essential qualifications </h6> <p.l>
+  
+  A Certificate IV or above in Database Design and Development or an associated IT field. <br> 
+  
+  A minimum of 3-5 years’ in a similar role with database management experience in MySQL. <br> 
+  
+  SQL coding and performance reviewing and optimisation. <br> 
+  
+  Experience performing root cause analysis. <br></p.l> 
+  
+  <h6> Desirable qualifications </h6><p.l> 
+  
+  Additional certificates in Database Administration from industry-recognised vendors. <br> 
+  
+  Australian Computer Society membership <br> 
+  
+  Experience in Python and Swift will be considered desirable. <br> 
+  
+  Application programming experience using HTML, CSS, Java and JavaScript will be a desirable attribute for this role. </p.l> <br> <br> 
+  
+  <h4> Personal qualities and behavioural traits </h4> 
+  
+  <br> <h6> Essential qualities or behaviours <p.l> </h6>
+  
+  Sound understanding of emerging technologies and design advances. <br> 
+  
+  Ability to work autonomously <br>  
+  
+  Problem solving skills <br> 
+  
+  Excellent written and verbal communication skills <br> 
+  
+  Provide support and liaise with team members and departments. <br></p.l> 
+  
+  <h6> Desirable qualities or behaviours <p.l> </h6>
+  
+  Self-driven, enthusiastic individual <br> 
+  
+  Ability to adapt to broad business scopes – we are a start-up business, so our direction is evolving. </p.l> <br> 
+  
+  <br><br><br><br><br><h6>  
+  
+	  <h6>Job title: Business Development Manager <br> 
+	  
+	  Reporting to: General Manager <br> 
+	  
+	  Salary: $110,000 per annum <br> 
+	  
+	  Hours: Full-Time <br> 
+	  
+	   
+	  
+	  <br> <h4>Purpose of the Position </h4> <p.l> <br> 
+	  
+	  The WaterLog Business Development Manager will be primarily responsible for developing our existing and new client base in two key areas, revenue, and exposure. Our revenue stream is derived from paid advertising and exposure from our customer base. </p.l> <br> 
+	  
+	   
+	  
+	  <br> <h4> Responsibilities and Duties </h4>
+	  
+	  <h6> Responsibility 1: </h6> <p.l> Identify and develop growth strategies and proposals, by aligning business niches and strengths with our client’s needs. This includes cold calling prospective clients and following through with potential leads. </p.l> <br> 
+	  
+	  <h6> Responsibility 2: </h6> <p.l> Manage and maintain existing valued relationships with longevity in mind. Ensuring a partnership is created between WaterLog and our clients. </p.l> <br> 
+	  
+	  <h6> Responsibility 3: </h6> <p.l> Educate and be well versed in WaterLog products and provide specialist and tailored advice to our clients. </p.l> <br> 
+	  
+	  <h6> Responsibility 4: </h6> <p.l> Remain current with local and international technology trends, progressions, and innovations to ensure Waterlog is ahead of its competitors and can adapt with market demands. </p.l> <br> 
+	  
+	  <h6> Responsibility 5: </h6> <p.l> Full sales life cycle including drafting, reviewing and negotiating client contracts to delivery of product. <br> <br> 
+	  
+	  Monthly sales targets and forecasts will be set and reviewed by Senior Management. Quarterly and annual meetings will focus more broadly on sales direction and strategy. </p.l> <br> 
+	  
+	  <br><h4> Academic Qualifications and Work Experience </h4>
+	  
+	  <br> <h6> Essential qualifications </h6> <p.l> <br> 
+	  
+	  A Bachelor degree or above in business, economics, finance, marketing or other related field. <br> 
+	  
+	  A minimum of 3-5 years’ experience in senior IT sales and marketing. Evidence of a proven sales track record and capacity to met and exceed sales target. <br> 
+	  
+	  New Business Development experience. </p.l> <br> 
+	  
+	  <br> <h6> Desirable qualifications </h6> <p.l> <br> 
+	  
+	  Experience with Tech Start-Ups <br> 
+	  
+	  Global network and contacts <br> 
+	  
+	  <br><h4> Personal qualities and behavioural traits </h4> </p.l>
+	  
+	  <h6> Essential qualities or behaviours </h6> <p.l>
+	  
+	  Technical knowledge <br> 
+	  
+	  Ability to work autonomously <br> 
+	  
+	  Excellent written and verbal communication skills <br> 
+	  
+	  Provide support and liaise with team members and departments. </p.l> <br> 
+	  
+	  <h6> Desirable qualities or behaviours </h6> <p.l> 
+	  
+	  Self-driven, enthusiastic individual <br> 
+	  
+	  Ability to adapt to broad business scopes – we are a start up business, so our direction is evolving. </p.l> <br> 
+	
+	  <br><br><br><br><br> 
+	  <h6>Job title: Product Delivery Manager<br> 
+
+	  Reporting to: General Manager<br> 
+	  
+	  Salary: $140,000 per annum <br> 
+	  
+	  Hours: Full-Time <br> 
+	  
+	  <br><h4>Purpose of the Position </h4><p.l> <br> 
+	  
+	  <p.l> The waterLog Product Delivery Manager will be responsible for the timely production and delivery of the waterLog application and website. They will facilitate the construction of the software by successfully managing multi-disciplined team members, departments, and schedules whilst liaising with senior management. </p.l> 
+	  
+	  <br><br> <h4> Responsibilities and Duties </h4>
+	  
+	  <h6> Responsibility 1: </h6> <p.l>  Establish project vision, scope, standards, and timelines for delivery, specifying required resources, potential risks, and obstacles with recommended resolutions. </p.l> <br> 
+	  
+	  <h6> Responsibility 2: </h6> <p.l> Delegate and manage time sensitive project elements to appropriate department or team member. </p.l> <br> 
+	  
+	  <h6> Responsibility 3: </h6> <p.l> Negotiate and cultivate relationships with both internal and external stakeholders </p.l> <br> 
+	  
+	  <h6> Responsibility 4: </h6> <p.l> Competently manage the performance and morale of team members by creating a collaborative, innovative and proficient workplace culture. </p.l> <br> 
+	  
+	  <h6> Responsibility 5: </h6> <p.l> Maintain excellent communication with senior management and departments via regular briefings and meetings. </p.l> <br> <br> 
+	  
+	   
+	  
+	  <p.l> Our Project Delivery Manager will be expected to exhibit exceptional communication skills, assisted by weekly, quarterly, and annual staff and executive meetings. Execute appropriate agile project management methodology and learn and iterate habitually. </p.l> <br> 
+	  
+	   
+	  
+	   
+	  
+	  <br><h4> Academic Qualifications and Work Experience </h4>
+	  
+	  <h6> Essential qualifications </h6> <br> <p.l> 
+	  
+	  Complete a Bachelor degree in a relevant field such as Software Development or Business Administration <br> 
+	  
+	  Minimum 5 years of relevant industry experience, with a proven success record in Agile methodologies. <br> 
+	  
+	  </p.l> 
+	  
+	  <br> <h6> Desirable qualifications </h6> <br> <p.l> 
+	  
+	  Gained further certifications in IT Project Management. <br> 
+	  
+	  Global network and contacts <br> 
+	  
+	  Experience with Tech Start-Ups <br> </p.l> 
+	  
+	  <br><h4> Personal qualities and behavioural traits </h4>
+	  
+	  <h6> Essential qualities or behaviours </h6> <p.l> 
+	  
+	  Ability to work autonomously <br> 
+	  
+	  Excellent written and verbal communication skills <br> 
+	  
+	  Provide support and liaise with team members and departments. <br> </p.l> 
+	  
+	  <h6> Desirable qualities or behaviours </h6> <br> <p.l> 
+	  
+	  Self-driven, enthusiastic individual <br> 
+	  
+	  Ability to adapt to broad business scopes – we are a start up business, so our direction is evolving. <br> </p.l> 
+	</div>
+</div>
+</div>
+
+<div class="container" id="section3">
+	<div class="container">  
+ <div class="row">
+  <div class="col-md-offset-2 col-md-8">
+	<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+
+	  <div class="carousel-inner">
+	  
+		<div class="item active">
+		  
+			<div class="row">
+			  </div>
+			  <div class="divider"></div>
 						 <!--Team Profile-->
-						   <p><h1><br><br>Team Profile</h1></p>
+						   <p.1><h1>Team Profile</h1></p.1>
 						  
 <br><p.l>Our team has taken various personality tests to help indicate how we will function together .
 
@@ -630,422 +1553,8 @@
 				  
 				 </div>
 				 <div class="divider"></div>
-					 <!--Tools Tab-->
-				 <h1>Tools </h1><br> 
-
-<p1>The applications and tools that Team WaterLog used in this assignment are Microsoft Teams, Git-Hub, Git-Hub CMD, Notepad++, TextEdit, Sublime text and Visual Studio. We used Microsoft Teams to record our meetings, communicate in-between them and share files with each other. Git-Hub was the platform that was used to host our website. We each had our own preference of software to write our code. For example, Liam used Notepad++ whereas Max used Visual Studio. The first few commits were mainly used for the formatting and overall skeleton of the website. As we started adding content, we ended up overriding each other. This caused us to research further into Git-Hub and develop a general understanding of how platform works. As you can see by our later commits as they are done by our group moderator, Max. </p1>
-					 
-				 <div class="divider"></div>
-					 
-				 <div class="item">
-   <h2 style="text-align : center; font-size:5vw;"> <p.l>IT Technologies.</p.l></h2>
-				<h1>Clouds, Services and Servers</h1>
-						   
-					   </div>
-					   <div class="col-sm-12">
-						<div class="col-sm-12">
-							<h2>What does it do?</h2> 
-
-							<h3>What is the state of art of this technology?</h3> 
-						  
-						   <p.l>Cloud computing has been around for 20 years or so, it is an operational technology used for a plethora of purposes.</p> 
-						  
-						   <p.l>Clouds are communal resources (computers, applications, storage systems and services) where data is stored on another computer. Clouding computing is essentially outsourcing or centralising servers to facilitate access from anywhere and eliminating restrictions to location, , ‘a cloud host for a website allows everyone in the world to access the website from any device’ (Sharma, 2018).</p> 
-						  
-						   <p.l>Cloud computing also offers additional security features and provides for automatic maintenance and updates, generated remotely, and uploaded to your devices upon authorisation.</p> 
-						  
-							 <h3>What can be done now?</h3> 
-						  
-							 <p.l>Today there are three main types of cloud computing, Public, Private and Hybrid:</p> 
-						  
-							 <p.l>Public clouds are owned and managed by a cloud provider, who delivers services to a customer via an online account. All hardware, software and infrastructure is managed by a third-party.</p> 
-						  
-							 <p.l>Private cloud services are wholly owned and utilised by an organisation, the hardware can either be located onsite or offsite (supplied by a third-party host). The services and infrastructure are managed on an exclusive network.</p> 
-						  
-							 <p.l>Hybrid clouds are a combination of both private and public clouds, where data and applications are pooled between both clouds. ‘It offers flexibility and utilises existing infrastructure, security, and compliance’ (What is Cloud Computing?, 2020).</p> 
-						  
-							 <p.l>There are also three main types of cloud services:</p> 
-						  
-							 <p.l>Software as a Service, aka SaaS, ‘is a service which delivers software applications over the internet’ (What is Cloud Computing?, 2020). The software provider hosts, manages, and maintains the application and all fundamental infrastructure. It is generally hired on a subscription basis and connected via an account over the internet.</p> 
-						  
-							 <p.l>Platform as a Service, aka PaaS, provides a platform for ‘developing, testing, delivering, and managing software applications’ (What is Cloud Computing?, 2020). The user, usually a developer, pays for the hired use of the infrastructure, storage, network, and database to develop.</p> 
-						  
-							 <p.l>Infrastructure as a Service, aka IaaS, delivers ‘rental infrastructure (servers, virtual machines, storage, networks, operating systems)’ (What is Cloud Computing?, 2020), paid for on demand.</p> 
-						  
-							 <h3>What is likely to be done soon?</h3> 
-						  
-							 <p.l>In the next few years, almost all computing will be done via cloud. Cloud computing is built for automation, so can merge with legacy, current and new technologies to create an efficient, dynamic system.</p> 
-						  
-							 <p.l>Better cohesion with legacy systems will allow businesses with complex and ridged operating structures to transfer to a cloud-based operating system more easily.</p> 
-						  
-							 <p.l>Micro data centres will continue to gain traction, these compact units are located close to devices (requiring less bandwidth), completing tasks previously performed by large data centres.</p> 
-						  
-							 <p.l>Microsegmentation, a software method used for data security, will continue to emerge. It creates an isolated ‘secure zone’ in a data centre, minimising the breadth and impact of a security breach.</p> 
-						  
-							 <p.l>Non-Volatile Memory Express (NVMe) will answer our increasing need for data and download speed. ‘It is a storage protocol which accelerates the transfer of information between systems, drastically enhancing data relocation’ (Kerravala, 2017).</p> 
-						  
-							 <h3>What technology or other developments make this possible?</h3> 
-						  
-							 <p.l>Cloud computing is done via software control and the internet, the internet is the main ‘connector’, used to transfer information and store data. Cloud computing is a more advanced way to command computers and supports greater proficiency in operations.</p> 
-						  
-							 <p.l>Server Virtualization is another important technology in cloud computing, layers of software are put between your computer’s hardware to run multiple operating systems, creating a fake, virtual environment. Virtual Machines are great for experimenting with new software or testing for malware as it enables the entire virtual machine to be deleted without affecting the existing operating system. It also allows for easy backing up.</p> 
-						  
-						   <p.l>Data centres range from enormous warehouses, accommodating rows upon rows of servers, a building which is either utilised by one company or co-leased by several, to a small cupboard office space. The more advanced centres are designed for maximum security, multi-level back-up, survival (from a power outage to a natural disasters), and to be run economically and environmentally (some even boast neutral carbon offsets). Their creation has secured our data storage ability.</p> 
-						  
-						   <h2>What is the likely impact?</h2> 
-						  
-							<h3>What is the potential impact of this development?</h3> 
-						  
-							 <p.l>With cloud computing, there is no longer a need to wait for hardware to be delivered, incorrect cables needing to be returned, a cloud provides instant access, and generally free online step-by-step instructions for use. You can ‘pay as you go’ using monthly subscriptions and do not need room to store bulky hardware. Moving data is also no longer a slow process, requiring a lot of bandwidth and human injection.</p> 
-						  
-							 <p.l>It is important to note, transition to cloud computing for businesses must be well planned to be successful. The transition often experiences trials which, without proper management can be costly in both time and money. Improper utilisation can also reduce effectiveness, so planning and execution is vital.</p> 
-						  
-							<h3>What is likely to change?</h3> 
-						  
-							 <p.l>Cloud computing is becoming the new business standard, businesses big and small are increasingly becoming aware of its many benefits. The future will be one where there is less reliance on human aptitudes and more focus on resourceful technologies.</p> 
-						  
-							 <p.l>Cloud computing is designed to expand with demand and offer agility. It has already become accessible and affordable to individuals and business alike through a variety of packages and services. Expectantly as the technology advances further, so too will its affordability, reliability, efficiency, and security.</p> 
-						  
-							<h3>Which people will be most affected and how?</h3> 
-						  
-							 <p.l>Individuals have an entire world of accessibility available to them, storing photos, maintaining records with the assistances of expert software, communicating instantly and streaming entertainment on demand.</p>  
-						  
-						  <p.l>Education has seen great adaption, ‘students can now access educational or operational applications without restraint and with high speed and accuracy, their teachers can then collaborate with them in program deployments’ (Sharma, 2018).</p> 
-						  
-							 <p.l>Healthcare use cloud computing to analyse live data ‘to assist in creating and specifying treatment options for diseases or illnesses’ (Sharma, 2018).</p>  
-						  
-							 <p.l>Business has been greatly influenced; time, cost, and security are the most common challenges for business. Cloud managed services offer improved efficiency, security, compliance, and productivity.</p>  
-						  
-							 <h3>Will this create, replace or make redundant any current jobs or technologies?</h3> 
-						  
-							 <p.l>Cloud computing has seen a decline in on-premises data storage and engineering. Potentially reducing the need for jobs such as network engineers. It has however, seen the creation of new employment opportunities, perpetual innovation, adaptation and transitioning to meet and fulfill data and systems demand will require specialised skills, jobs such as Solutions Architect and Systems Administrator will most likely thrive.</p> 
-						  
-							 </p>Virtualization has had a particular impact on data traffic, cementing the continued growth of data centres and its subsequential job growth, for example Systems Engineering and Net Development are fast growing employment prospects.</p> 
-						  
-						   <h2>How will it affect you?</h2> 
-						  
-							<h3>In your daily life, how will this affect you?</h3> 
-						  
-						   <p.l>Personally, cloud, server and services innovation has simplified, made more accessible and enhanced daily life. From storing (and backing up) photos of my growing family, special events (even scanning children’s artwork rather than keeping a cupboard full), to allowing me to watch movies on demand (no more ad breaks, missing the start of the movie). A paper-free world is also on offer, digital certificates, information sheets, receipts uploaded to cloud storage, or a software program sees significant paper reduction.</p> 
-						  
-						  <h3>What will be different for you?</h3> 
-						  
-						   <p.l>For business use, I have experienced increased efficiency and better record keeping. I remember the days when I had to keep a filing cabinet of paper receipts, I had to manually enter the receipts into an accounting system and then try to match it with the end of month figure in the bank account. Searching for and auditing receipts was done manually (and hurt your back from crouching over the filing cabinet for hours). Now, software is linked directly to the business bank account where it pre-empts accounting categories for reconciliation. Scans or downloaded receipts are linked to each bank entry and voila, the work is done! To search for an entry, simply type in the name or amount and within seconds suggestions are presented for you to choose.</p> 
-						  
-						   <h3>How might this affect members of your family or your friends?</h3> 
-						  
-						   <p.l>Our ability to communicate, share content is so much easier. I have friends around the world, in differing time zones, sharing our lives via text, photos and video is simple and instant – and all done on a phone. My best friend moved to Queensland when I was a teenager, I remember having to send letters and printed photos to her via post, it would take days, even weeks to reach her. Now our communication is instant and in real time.</p> 			  
-						   </div> 	  
-						   </div> 
-						   <div class="divider"></div>
-						   <div class="row">
-					   <div class="col-sm-12 text-centre">
-						<p> <h1>Cybersecurity.</h1></p>
-					   </div>
-					   <div class="col-sm-12">
-					   	<p.1>
-						 <h2>What Does Cyber Security Do?</h2>
-						 <p.1>Cyber Security is the practice of protecting systems, programs and networks from digital attacks and unauthorized access. Basically protecting our digital online life, it’s like a locksmith putting a lock on a door their task is to protect whatever’s inside. Cyber Security is essentially the same but in the virtual world.</p>
-						 <h2>What is the current state of cyber security?</h2>
-<p.1>Well that is kind of hard to say right now, with the current world issue (Covid 19 pandemic) there has been an increase of remote working and also for a lot of companies, reduced cyber security budgets.
-Many companies have changed the way they operate as a result of the pandemic. With 30% of respondents confirming that they have been operating with a remote workforce, this has become a stress test for cybersecurity processes. Because of this 14% of organizations have said they revised their cybersecurity concepts, and only 7% have said that their strategy was sufficient during the pandemic. 
-Unsurprisingly the increase of remote workers drove up the number of OT network scan attempts during the pandemic and because of this a lot of companies realized the need to supplement cybersecurity procedures to combat this.
-What can be done now in cyber security?</p>
-<h3>Developing Cyber security talent is essential</h3>
-<p.1>With cyber attacks growing more frequent every year, a lot of companies are having to spend more on protecting themselves, the problems is there is actually an enormous shortage of workers with adequate infosec skills at the moment. 
-A study by the Global Information Security Workforce estimated that by 2022 the gap between open positions and qualified personnel will widen by almost two million jobs.
-We need more qualified and experienced people in this industry.
-<h3>Older Legacy tech is still an issue</h3>
-Do you remember the 2017 WannaCry ransomware attack? It infected over 200,000 computers running older versions of Windows in 150 countries. 
-Legacy systems present a major cybersecurity risk.
-The main reason for this is there is little motivation for manufactures to continue releasing security patches for out of date systems, even when new vulnerabilities appear. The other problem is with legacy dependencies, where a secondary piece of legacy tech can’t be run without a legacy piece of hardware or tech which introduces its own securities vulnerabilities.
-Even with new security vulnerabilities coming to light, companies around the world continue to expose themselves to cyber risks by continuing to use these old technologies, normally this is done to either save money or because they can’t afford or want the downtime to install and configure new equipment.
-But this leaves them at a disadvantage when it comes to cyber attacks.
-Companies need to be stricter with their hardware and software, when it comes to out of date technologies they could simply replace it during non busy hours or do a rolling update. If they are attacked it could be a lot worse than a few hours of down time and if for some reason they can’t update the old tech they could simply segregate it on its own V-Lan so it is inaccessible to the outside world.</p>
-<h2>What is likely to be able to do be done soon in cyber security?</h2>
-<p.1>The future of cybersecurity looks very promising.  Cyber security jobs are expected to grown to 1.8 million by 2022.
-Over the last decade there has been an uptick in state-run or state sanctioned cyber-warfare. This all began in 2010 with the Stuxnet worm. This worm implanted on Iranian uranium centrifuge computers to trigger equipment failure. By 2017 a Russian backed hacking group called Sandworm where going after a broad range of targets including American Corporations and Eastern Europe energy grids.
-There will also be more hackers, according to a study done by Michel Cukier who works out of the University of Maryland. Cyber-attacks have become so frequent now, that they occur on average every 39 seconds!</p>
-<h2>What technological or other developments make this possible?</h2>
-<p.1>Artificial Intelligence (AI) has come so far in the last decade it is used in many industries now. 
-AI and machine learning algorithm can be used to automate many tasks, crunch data and even make decisions faster than a human could. The problem is this inherently creates cybersecurity risks.
-A lot of potentioal exploits are poorly understood at their time of release, and because of this and a lot of companies are relying on machine learning for critical tasks. They are sure to become a target for hackers. But AI won’t just give hackers more targets, Cybersecurity developers will also use AI to address vulnerabilities and also detect issues before they can be taken advantage of and repel hackers.</p>
-<h2>What is the likely impact</h2>
-<p.1>The likely impact is there is going to be more global cyber attacks and cyber warfare, we are moving into a day and age where everyone’s house, car and phone are all connected and potentially exploitable.
-But because of this there is going to be an increase in infosec positions and a push for more people to be trained in cyber security and ethical hacking courses.
-Newer technologies are already starting to enter the cybersecurity industry for instance AI and behavioral analytics is starting to be implemented in systems to help detect vulnerabilities and attacks and at some point future developers might use AI to repel cyber attacks and also embed it in user interfaces to warn users about risky websites or poor security choices. AI might also be used to simulate network attacks, revealing any week points so they can be patched. Behavioral analytics helps determine patterns on systems and networks to detect potential and real time cyber threats. For instance, an abnormal increase in data transmission from a certain computer or phone could indicate a cyber security issue. While behavioral analytics is mostly used for networks it is now starting to be used in applications and user devices as well.
-Older tech will always be a problem though, there is not much motivation for manufactures to keep patching older hardware, and most companies simply don’t want to mess with hardware that is working and don’t realize the security benefits that come with newer hardware, In the future, there is no reason this still won’t be an issue, it could also get worse. Many companies and consumers are perfectly satisfied with the performance of their current generation equipment, when today’s cutting-edge turns into legacy tech, most of them wont upgrade, and hackers are sure to take notice.</p>
-<h2>How will this affect you?</h2>
-<p.1>This will affect me in a lot of ways, not only in my daily life but possibly my work life.
-There will be more cyber attacks, and cyber warfare than ever before, meaning that I will have to possibly take even more steps to ensure my online presence is secure. Cyber criminals have become more advanced by the day and we are all going to have to become smarter ourselves to keep our own data secure. For instance two factor authentication (2FA) will possibly become standard for any website you login to (weather its Facebook or my own bank).
-It could even be standard that I would have to own an RFID blocking wallet for all my bankcards and employee identification cards so that they don’t get stolen when I am out in public, it has become so simple for this to happen considering the hardware to do this now fits in the palm of your hand.
-Most of our critical infrastructures are all connected to the world web now, Imagine what could happen if someone manages to hack the power grid or any other public utility infrastructure?, for instance the traffic light systems and I am driving home about to go through a intersection and they change both lights to green.
-Everything I now do is on the net, weather it is talking to friends, watching a movie I can walk around my house and ask Google to turn my TV on and play my favorite show, I have some much technology at home to make my life easier but it could also potentially open me up to a potential cyber attack. To secure it the best option would be to run a software firewall on a dedicated computer like Pfsense to monitor and manage all the inbound and outbound traffic of my home. 
-I don’t really think this would affect my family or friends I would also not hesitate to help them secure their own online presence and home.</p>
-
-</p.l>
-					   </div>
-					 </div>
-				  
-				 </div>
-
-				 <div class="divider"></div>
-   
-				 <div class="item">
-   
-					 <div class="row">
-					   <div class="col-sm-12 text-centre">
-						<p> <h1>Blockchain and Cryptocurrencies.</h1>
-					   </div>
-					   <div class="col-sm-12">
-						   <p><h2>What does it do?</h2>  
-
-						   <br><h3>What is the state of the art of this new technology?</h3>  
-
-Blockchain technology was originally described in 1991 by a group of researchers. Its original purpose was to time stamp digital documents so it would not be possible to backdate or tamper with them. This was, for the most part, an unused technology until 2009 when Satoshi Nakamoto adapted it to create the cryptocurrency Bitcoin. Bitcoin is the first and most popular Cryptocurrency but there are over 1,500 different kinds of Cryptocurrencies now. Blockchain is a Technology that allows us to have distributed, decentralized currency like Bitcoin and Ether. A Blockchain is essentially a ledger that records information in blocks. The blocks store 3 different types of information to create a profile for the currency stored.  
-
-Information about the transaction, for example, the date time and amount 
-
-Information about who is involved in the transaction  
-
-Information that distinguishes them from other blocks, these are called hashes.  
-
-Each block has a profile called a hash. A hash is a way to identify exactly what the block is, like a fingerprint. Changing something inside the block will make the hash change. Aswell as their current hash, blocks store the hash of the previous block, thus creating a chain. (How does a blockchain work - Simply Explained, 2020) 
-
- 
-
-<br><h2>What can be done now?</h2>  
-
-As Blockchain Technology evolves and becomes more versatile it is being used in more areas and projects outside Cryptocurrencies. For a system to have currency it must be extremely secure. This has naturally made Blockchain technology a hub for applications that need to hold and transfer secure files. Applications like Chronicled and CoinDesk rely on the Security that Blockchain presents to keep their information safe. Chronicled has its own Blockchain Technology that is uses to send data.  This is used to send Legal Documents, Supply chain and IOT tracking forms. CoinDesk is a platform that also uses blockchain, but for a different reason. CoinDesk was used by the United Nation World Food Program to give recourses to thousands of Syrian Refugee’s using Cryptocurrency Vouchers to purchase Olive oil, seeds and lentils. These are just 2 examples of how we can use this Technology to propel the world forward. (4 Blockchain Uses Besides Cryptocurrency | Venafi, 2020)  
-
-						   <br><h3>What is likely to be able to do be done soon (say in the next 3 years)?</h3>  
-
-In an interview we did for another segment of this assignment we interviewed a Software Engineer that is currently working on remodeling the entire back-end system of the ASX. They are currently testing and creating new segments of the CHESS back end operating system of the ASX. The Software Engineer stated that the implementation of a Blockchain system is being used to add an extra level of security with the ability to track and pinpoint transfers and purchases in a millisecond. This technology is going to continue to be implemented in our Financial systems as our governments catch up the forefront of our Technological abilities. It is likely that The Australian banks will start to change their tone on Blockchain systems and Cryptocurrency as it is being implemented into our Government Financial systems and their already existing infrastructure.  
-
-What technological or other developments make this possible?  
-
- As Cryptocurrencies have only come to the forefront of popularity in the last decade, people often assume that the blockchain technology that houses it was created alongside it. The developments that allow large companies to use smart languages to create their own Blockchains started in 1991. Blockchain is known as a more recent technological development but must remember that blockchain isn't a software it’s a system, a system that has been under development for 29 years. Bitcoin may be the most popular Cryptocurrency, but it wasn’t the first. In 1998 Nick Szabo started work on ‘Bit Gold’ a digital currency. Bitcoin wasn’t created for another 10 years in 2008 when Satoshi Nakamoto released a paper stating the model of the Cryptocurrency Blockchain. The actual BTC digital currency was created 1 year later in 2009. (History of blockchain, 2020) 
-
- 
-
- 
-
-<h2>What is the likely impact?</h2><br>  
-
-						   <h3>What is the potential impact of this development?</h3> 
-
-Blockchain Technology itself has changed the IT World because of the ability to store and transfer data securely without a middleman. Along with this Technology, Blockchain brought along Cryptocurrencies with it. The Commonwealth Bank states that it does not allow the purchases of cryptocurrencies through their account because of volatility. It is likely that this is not the only because of its volatility but because of the likely impact of a system like Blockchain that doesn’t need 3rd parties like banks, brokers or other financial institutions to help the process along the way. This cuts out a huge part of our financial industry. (CBA blocks credit card purchases of virtual currencies, 2020) 
-
-The impact will likely be like a lot of the other automation changes that affect the finance industry. As systems get automated, humans who work in those systems lose their jobs.  
-
-<br><h3>What is likely to change? Which people will be most affected and how?</h3>   
-
-The people who would be the most affected would be businesses and the individuals who are either developing the new technology or being replaced by it. Businesses will be forced change their systems to integrate with the ever-changing world of Blockchain ledgers and their advanced security. With competitor’s moving onto smart languages and creating their own blockchains, businesses will have to educate, specialize and evolve to keep up with their respective industries.  
- 
-
-<br><h3>Will this create, replace or make redundant any current jobs or technologies?</h3> 
-
-We are likely to see many people lose their jobs through automation and the addition of things like Blockchain that cut our potential parties from a financial interaction. The finance industry has been and will continue to adapt to the changes in the Technology. With the changing landscape of the industry comes the need for specialist positions for people who handle automation. For example, if a bank has to fire 50 of their teller staff because of the implementation of a blockchain system that replaces most of their work, they will most likely have to hire specialists to build the system out of a secure smart language. This people will need to maintain and build the blockchain and language as it is now an integral part the business model. 
-
- 
-
- 
-
-<h2>How will this affect you?</h2>   
-
-<br><h3>In your daily life, how will this affect you?</h3>   
-
-The explosion of bitcoin and all 1’500 other cryptocurrencies have garnered a lot of attention. This development on the financial side, along with blockchain technology has naturally started to replace some of the less secure versions of the technology. People are starting to purchase more cryptocurrency because of the safety and security that the Blockchain brings.  
-
-Larger companies and government sectors have started replacing their systems with Blockchain. You can see has slowly creeped into a lot of other sectors. Law firms apply the use of a blockchain system for safe and secure transfer of Smart Documents.  
-
-I think that blockchain, not cryptocurrencies, are the technology of the two that has/will affect the landscape of the world to more significance.   
-
-<br><h3>What will be different for you?</h3>   
-
-Cryptocurrencies were almost taboo when I first heard about them in 2015. As Blockchain Technology and Cryptocurrencies get more integrated into everyday society it is likely that the Australian banks will be more open to purchasing Cryptocurrencies through there interface instead of having to transfer it to a 3rd party like PayPal. For me, this will streamline to purchasing process of cryptocurrencies like Ethereum or XRP.  
-
-<br><h3>How might this affect members of your family or your friends?</h3>  
-
-My libertarian or more financially savvy friends will be delighted to the development of these technologies whereas the other, larger, percentage of my family and friends will have no idea that their entire amazon order is processed by one of the most advanced Blockchains on earth.  </p>
-</p>
-					   </div>
-					 </div>
-				  
-				 </div>
-
-				 <div class="divider"></div>
-   
-				 <div class="item">
-   
-					 <div class="row">
-					   <div class="col-sm-12 text-centre">
-						<p> <h1>Machine Learning</h1> </p>
-					   </div>
-					   <div class="col-sm-12">
-										   <p><h2>What does it do?</h2>  <br>
-						   Machine learning is well described by its title - it is the process of a machine changing behaviour based on learning from past experience. 
-						   In practical terms, this is achieved by feeding large amounts of data ('teaching' the machine) to a machine learning model, and allowing the 
-						   machine to decide for itself what attributes define each piece of data as unique. This is typically done in one of two ways – known as supervised 
-						   machine leaning, and unsupervised machine learning. (Heath, 2020)<br><br>
-
-In supervised machine learning, the machine is given labelled data to make inferences from new data inputted. The output wanted from this type of machine learning is known 
-in the early stages of training, and adjustments can be made to the learning algorithm to provide an intended output that matches the sample. This will have the effect of 
-making futures predictions by the algorithm more accurate. <br><br>
-
-In unsupervised learning, the information given to the machine is not labelled. In this type of algorithm, the objective is to let the computer make its own inferences and 
-draw out ‘hidden’ structures within the dataset. <br><br>
-
-Further from these main classifications, there is semi-supervised learning and reinforcement learning. Semi-supervised learning is fairly self-descriptive; it combines 
-elements from the two main types. In recent times this type has been used by Generative Adversarial Networks, a machine learning system that creates new data from labelled data. 
-Reinforcement learning (such as Google’s Deep Q-network), relies on the machine learning by receiving positive input from the data it is interacting with – an example of this 
-might be receiving score points in a video game. (Heath, 2020)
-
-						   <br><h3>What is the state of the art of this new technology?</h3>  
-
-There are several fields in machine learning that are currently popular with researchers and users. ‘Computer Vision’ is one of the most popular and involves interpretation 
-of visual data using techniques such as image classification, semantic segmentation and object detection. One application of this machine learning is in self-driving cars.(Overview: State-of-the-Art Machine Learning Algorithms per Discipline & per Task, 2020) <br><br>
-
-Another state-of-the-art field in machine learning is Natural Language Processing (NLP). NLP has the objective of giving ai the ability to comprehend and get meaning from 
-language. This type of machine learning can be found in chatbots, spam filters, social media data analysis and virtual assistants. Some techniques used in NLP include 
-sentiment analysis, language modelling and machine translation. (Current State-of-the-Art Deep Learning Technology, 2020) 
- 
-
-						   <br><h3>What is likely to be able to do be done soon (say in the next 3 years)?</h3>  
-
-One of the most exciting developing areas of machine learning is the increasing adoption of quantum computers. Quantum computers differ from regular pcs in 
-the way they perform calculations – based on probability calculations, rather than the definite binary state of 1s and 0s in a regular computer. In short, 
-this means they have the potential to analyse data far more efficiently, which will increase the potential of machine learning exponentially. (Staff, 2020) (What is the Future of Machine Learning?, 2020)
-						<br><h3>What technological or other developments make this possible?  </h3> 
-
- The current state of machine learning was theorised in the mid-1900s, but it wasn’t until around 2010 that computer power had caught up to test the theory. 
- Since then advances in general computer hardware (particularly GPUs) has allowed the theory to be put into practice. GPUs have played an important role in 
- accelerating the development of machine learning, as their architecture is well tailored to produce more layers of neural networks that provide a deeper 
- analysis of the dataset. This type of machine learning is often referred to as deep learning.(The State of AI in 2020, 2020)
- 
- 
-<h2>What is the likely impact? What is likely to change? Which people will be most affected and how? Will this create, replace or make redundant any current jobs or technologies?</h2><br>  
-
-						   
-The impact of machine learning is already being felt in wide areas of society, from everyday areas like social media and finance, to advanced modelling in 
-climate change and medical research. The implications of this impact now and going into the future can be looked at both in terms of benefits and risks. 
-Some benefits of machine learning are: <br><br>
-
-<b>Medical research:</b> Patient data is hugely complex both in terms of the number of individuals, and the many different variables patient data contains. 
-Combing through this data to find trends in health outcomes is a task that could only be achieved with machine learning. Computers approaching patient diagnoses 
-in novel ways also means it can find disease that is otherwise overlooked by a physician. <br><br>
-
-<b>Autonomous vehicles:</b> Machine learning is a critical component in an autonomous vehicles’ ability to make sensible decisions based on emergent data, 
-and not merely from being pre-programmed in the factory. <br><br>
-
-<b>Banking:</b> Advances in a data analysis means banks can use anomaly detection models to monitor their customer’s credit cards, detecting anomalous use 
-such as a sudden change in country where payments are being made. A red flag like this can instantly halt transactions being made, potentially saving their customers from fraud. <br><br>
-
-This emerging technology also carries with it some risks, which include: <br><br>
-
-<b>Medical research:</b> Whilst data analysis has been shown to greatly increase the predictive accuracy of diagnoses in some areas (such as taking a 30% 
-manual prediction of myocardial infarction up to 80% accuracy using ai), this can actually decrease in accuracy when unexpected variables are introduced 
-into the system. In the case of this heart attack research, the original data was heavily biased towards male patients, and thus symptoms unique to 
-females were either misidentified or not identified at all. <br><br>
-
-<b>Move towards autonomy resulting in loss of jobs:</b> It is generally thought that autonomous vehicles will be heavily adopted by freight companies 
-when the technology matures appropriately. Whilst this could in theory be a great benefit to humanity, the loss of millions of jobs worldwide has the 
-potential to cause a great social upheaval. Traditional values of having a full time job will need to be questioned as it becomes a simple impracticability 
-for many people, and careful overwatch and legislation by governments will be required. <br>
-(The Effects of Machine Learning | Protiviti - United States, 2020) <br>
-
-<h2>In your daily life, how will this affect you? What will be different for you? How might this affect members of your family or your friends?</h2><br>
-
-Machine learning is already having a profound impact on our daily life. One experience of machine learning that is universal to most people's lives is 
-its presence in Social Media. Whilst large platforms like facebook and youtube keep their machine learning algorithms a closely guarded secret, the categories 
-that picked up by ai are known. In facebook's case, there are 'negative' categories which are flagged by ai for human review. These include items such as hate 
-speech, spam, terrorism and fake accounts. Once the machine has identified one of these flagged items, a human moderator can then review and decide if the content 
-needs action taken. This has the effect of allowing a relatively small human workforce to analyse a vast network of millions/billions of users. (Lawrence, 2020) <br><br>
-
-Market research and advertising is another area where machine learning plays a huge factor in social media. Facebook are able to use data analysis tools to feed 
-back to businesses on their platform what their consumers are commenting on, liking and sharing. This data can then be used by companies to focus their services 
-on areas that will generate the most consumer attention and sales. Targeted ads - advertisements based on an individual's social media footprint (ie. searches for 
-particular companies/items, aforementioned likes and comments) are also driven by machine learning. Furthermore, advertising can be based on broader demographics 
-(ie. sex, age group) based on big-data analysis of users who have already engaged in such content. <br><br>
-
-In my life, I have seen this technology become more sophisticated on social media with each passing year. In the early 2010s, it was fairly common to see products 
-being advertised to you which were clearly aimed at your demographic, but may not fit with your particular interests. In recent years however, it is sometimes uncanny 
-how social media can advertise a product to you that fits perfectly with both your interests and immediate needs. The lack of transparency in how data is gathered here 
-is a concern, for instance, many people in my circle of family and friends have experiences of products being advertised to them that were mentioned in conversation 
-recently with others, yet never specifically searched for online. (15 Ways Machine Learning Will Impact Your Everyday Life, 2020) <br>
-
- </p>
-</p>   </div>
-					 </div>
-				  
-				 </div>
-				 <div class="divider"></div>
 <img src="https://gykam.com/previews/the-dangers-of-using-hot-tap-water-for-cooking-and-drinking-1545253415639.jpg" height="200" width="700" class="center">
 
-				 <div class="item">
-				   
-					<div class="divider"></div>
-   
-					<div class="item">
-	  
-					  <!--IT Work tab-->
-						<div class="row">
-						  <div class="col-sm-12 text-centre">
-							<p><h1>Professional Interview</h1></p>
-						  </div>
-						  <div class="col-sm-12">
-							<p.l>							<p>The interview that we conducted was with an IT professional that works with both a independent software contractor and the Australian Securities Exchange (ASX). Below you will find a summary of the answers given by our Interviewed IT Professional. Due to contract issues we are unable to use the recording, but I have attached the transcript in the report attached.  
-
-
-
-								<h2>1. Please tell us about your IT work. What exactly do you do?</h2>
-  
-  Most of my work is in the financial markets. Previously I worked in research roles using programming to research different concepts in the stock market. My current role is technically called product owner with a software development company that is replacing the ASX backend clearance and settlement system which is basically a big database.<br>
-  
-  It's quite a well-known system it's called chess. The last time it was replaced was 30 years ago. We are using a Distributed ledger like a block chain solution. The company I work for has their own smart contracting language that pairs the buyers and the sellers together. The role that I'm in is product owner.<br>
-  
-  This is that under the agile model of software development. Where you have short term targets and sprints in contrast to a waterfall model where you’ll be planning for months or even years. Because there is a big infrastructure, we must split everything into like 2-week intervals. My role is to communicate from the customer, The ASX, and our team of software engineers and testing for any problems that may come up under the ASX Security guidelines.<br>
-  
-  <br><h2>2. Please tell us about the industry you work in.</h2>
-  
-  I’ve always been in financial markets. Previously as a big broker dealer for Charles Shaub. Most of my work is about financial markets. Either stocks or the backend plumbing of how it works. ITs great being multi-industry because I have so much room to work with. 
-  
-  <br><h2>3. What other kinds of work do you have to do?</h2>
-  
-  In Previous roles I've done a lot of managerial stuff, current role is slightly different as instead of managing people our professional is a managing a product.  
-  
-  A Large portion of work is writing tests to make sure that everything in the project is by ASX standards of development and security.  
-  
-  <br><h2>4. Who are all the different people you interact with in your work? Please tell us about them.</h2>
-  
-  
-  I'm the bridge between the IT guys and the finance guys so they’re is a big range of personality types that I've got to work with. 
-  
-  <br><h2>5. Please tell us about your interactions with other IT professionals.</h2>
-  
-  Because of the nature of the project we have some of the best developers from around Australia for the languages that we are using. We have a lot of smart and quirky people. Overall, everyone is quite professional and nice on the IT side of things. Everyone on the ASX side is a little more integrated into suit culture but also still very nice people. As I must be the bridge between the finance guys and the IT guys it helps to be friends with them all to understand where they are coming from. 
-  
-  <br><h2>6. What about your interactions with clients or investors?</h2>
-  
-  There can be challenges with any client, especially such a bug project like this, there are times where we don’t agree on what should be done. In that case we must negotiate to get the client what they want while still doing it in a safe, efficient and sustainable way.  
-  
-  <br><h2>7. What aspects of your work do you spend most time on? Please tell us about these.</h2> 
-  
-  When I started it was learning how to communicate with my coworkers effectively and get like settled in but now the most time would be to write those tests that verify that we are doing the right thing, something that meets the requirements. A lot of it is managing the workload of others but currently in the project it's a lot of tests. 
-  
-  <br><h2>8. Which aspects of your work do you find most challenging?</h2>
-  
-  I made a very big change to get into this role, as I hadn't done any of the background or plumbing stuff yet. I didn’t have much exposure to all the little transfers and terms that the ASX has for things. Smart contacts and the new test language were also a big struggle to learn. It took me about 6 months to feel like I was adding value to the team as there was just so much to understand when I started. 
-  
-  <br><h2>9. Finally, can you share an example of the work you do that best captures the essence of the IT industry?</h2>
-  
-  I don’t know that seems like a vague one so I'll try put it as best as I can. Using the latest technology to improve technologies, to streamline and to make things easier and more efficient for everyone. </div>
-						  </p>
-							</div>
-						  </div>
-						</div>
-					 
-					</div>
 					<div class="divider"></div>
 
 <!--Ideal Jobs tab-->
@@ -1062,10 +1571,10 @@ The technical skillsets for each job we have selected are unique from each other
 The business analyst role is unique in that it is  a hybrid role, i.e implementing  technology to utilise a business skillset. Data analysis is something that a business analyst will need to be proficient in, which broadly overlaps with with PHP development (As SQL is a language used for data management).  
 Data Centre Technicians and Network engineers, also handle data but in a very different way from an analyst. These roles  more focus on the administration, maintenance and handling of data networks. Both will generally have experience working in data centres.  
 <br><br>
-Cyber security is unique to the rest of our job choices, as it is centred around protecting data from intentional threats. However there is some overlap with the Developer roles in terms of being tailored to businesses needs and designing applications accordingly. <p.l>
-
-					<div class="divider"></div>
-
+Cyber security is unique to the rest of our job choices, as it is centred around protecting data from intentional threats. However there is some overlap with the Developer roles in terms of being tailored to businesses needs and designing applications accordingly. <p.l>						 
+							
+							
+							<div class="divider"></div>
 				   <!--Industry Data tab-->
 					 <div class="row">
 					   <div class="col-sm-12 text-centre">
@@ -1151,39 +1660,38 @@ After looking into the various types of employment in cyber security I would con
 <h6 style="font-size:1.5vw;">Imogen Leaver</h6> 
 <h4>What went well? </h4>  
 
-<p.l>The communication between all team members was fantastic. Each person contributed equally and was open to contributing as much as was needed to complete the task or assignment. Each personality complemented the other group members, so everyone could offer tangible suggestions, solutions, and expertise. </p> 
+<p.l>Having remained the same group from Assignment 2, we were familiar with each other and how we worked together. This was an asset as we could delegate tasks promptly, knowing with confidence each member would complete their task in the designated timeframe, with skill, whilst playing to their strengths.   </p> 
 
 <h4>What could be improved? </h4>  
 
-<p.l>We are all learning in the IT space, so found areas of technology skills to be lacking. This was no one person, rather the unanimity of the group. It certainly makes sense we are learning about IT and I feel we all progressed and adapted quickly in the short time we had to learn the necessary skills.</p.l> 
+<p.l>It was the consensus from Assignment 2, that our area for improvement was IT knowledge and skills. I felt the group made real progress in this area, we certainly improved our GITHUB control and application. We still have room for improvement, with most of us being at the beginning of our IT journey, this is no surprise.  </p.l> 
 
  <h4>What was surprising? </h4>  
 
-<p.l>The striking differences in our ages, lives, and reasons we are studying. Even more surprising was how these differences caused no tension or friction, rather created coherence, and accord. </p> 
+<p.l>Our group members are so different and picked each other at such random, however, have managed to really meld and support each other through this process. It has been a difficult time to study, with some of us under COVID restrictions and experiencing upheaval in our personal lives, we have nonetheless prevailed.  </p> 
 
 <h4>What have you learnt about groups? </h4>  
 
-<p.l>They can be really productive, and I never thought I would be glad I was completing an assignment with a group rather than solo! I honestly feel I could not have achieved this assignment without each member of our group, what each person contributed was worthwhile and of benefit to the group </p> 
+<p.l>I am used to the traditional ‘line of authority’ in the workplace, I was accustomed to this being the effective way to manage a project, I have found with this group work, we have all stood to task and worked cohesively towards each goal with a successful outcome.  </p> 
 
  
 <h6 style="font-size:1.5vw;">Andrew Rijs </h6> 
 
 <h4>What went well? </h4>  
 
-<p.l>As a team we developed a rapport early on and regularly communicated, both through our bi-weekly meetings and text messages using MS Teams. Roles were delegated in a fair manner. </p> 
+<p.l>The dynamics of our group had already formed into a strong unit during our work on assignment 2, and this translated well to assignments 3 and 5 as well. There has been an attitude from all team members of ‘what can I do to help the team?’, and this has made working together a breeze over all assignments.</p> 
 
 <h4>What could be improved? </h4>  
 
-<p.l>  The biggest issue we had was using GitHub in a collaborative manner, as it was the first time any of us had tried it there were some teething issues in figuring out such concepts as branching.   </p.l> 
+<p.l>On assignment 2 we all struggled to a degree with the technical aspects of the assignment, particularly using github. This has improved in this assignment with practice and consultation with our lecturers/tutors. However as we are all beginners in IT this is still an area where we could improve. As the creator of some of the artefacts working towards seeing the project become a reality, I would love to improve my development skills so I could add more features to the product.</p.l> 
 
  <h4>What was surprising? </h4>  
 
-<p.l> Throughout the work period the team as a whole remained supportive and interested in the assignment. When any individual was unsure of an aspect of the project, everyone made an effort to figure it
-  out. Whilst this isn't necessarily surprising for this group, it hasn't been my experience with group work in the past. </p> 
+<p.l> I was expecting assignment 3 to be a rather daunting undertaking, but since we had laid much of the groundwork in assignment 2 it turned out to not be too taxing. Another aspect of this – everyone in the group was keen to take on an important role, which resulted in the work load being spread across all team members. </p> 
 
 <h4>What have you learnt about groups? </h4>  
 
-<p.l>That completing assignments in a team isn't always the worst task of the semester! In a good group where everyone feels compelled to put in the effort, it can actually be a very positive experience.</p> 
+<p.l>Sticking with a team over the course of a study period has allowed everyone’s strengths to be understood and utilised for the benefit of the group.</p> 
 
  
  
@@ -1192,19 +1700,19 @@ After looking into the various types of employment in cyber security I would con
 
 <h4>What went well? </h4>  
 
-<p.l>When allocating the workload between members, everyone had an optimistic viewpoint. Everyone was eager to work and help wherever they could. </p> 
+<p.l>Our group is full of different experiences and skills in different fields, this came to be extremely important with our group projects. We used each other’s experience and skills while delegating workloads, as a result each member understood what was needed from them and completed it to the best of their abilities. </p> 
 
 <h4>What could be improved? </h4>  
 
-<p.l>Our team had a great workflow, however the biggest problem holding us back was our understanding of I.T. Due to the majority of us completing this course in the hopes to start a career in the field of I.T, many of us didn’t have much background knowledge on the subject. </p.l> 
+<p.l>Our team is well fitted for many scenarios, I believe that we complete tasks to a satisfying degree. However, sometimes I feel as though we may overthink certain tasks, making us spend more time then necessary on said tasks. </p.l> 
 
  <h4>What was surprising? </h4>  
 
-<p.l>My experience with group projects in the past hasn’t been great, most of the time there is little enthusiasm towards actually completing the task. However, this group was the complete opposite, members were completing their assigned task and going as far as to ask for more work from others. I also found the acceptance of our team to be quite amazing, everyone has their own strengths and weaknesses, however due to the cohesion of this team I believe we completed the task to a high level of satisfaction. </p.l>  
+<p.l>Overall, I would say the entire groups efforts and motivation towards completing our goals has been the most surprising aspect of this experience. Usually, tasks that are to be completed in groups or teams are feared and hated by most people, however, as a result of the waterLog team, I will no longer share this opinion. Each member contributes an equal amount, while also helping wherever possible.  </p.l>  
 
 <h4>What have you learnt about groups? </h4>  
 
-<p.l>The waterLog team consists of members from many walks of life, this turned out to be very beneficial as each member had insight to other I.T concepts. Generally, group assignments end in a bad experience, however my experience in this team has been fluid and enjoyable. </p.l>  
+<p.l>As a result of this experience, I have learnt that participating in group or team projects isn’t always bad. This experience has changed the way I look at collaborating with fellow students, I now look forward to my next group project. </p.l>  
 
  
 
@@ -1212,49 +1720,68 @@ After looking into the various types of employment in cyber security I would con
 
 <h4>What went well? </h4>  
 
-<p.l>I was surprised to have such a communicative enjoyable team to be able to do the assignment with. We worked well as a team to allot the appropriate workload at the beginning so that the project had a strong foundation of content before we started adding anything to the website.</p.l>  
+<p.l>Our group has had the same consistent members through assignments 2,3 and 5. Over this time we developed from a group of people who were doing their parts into a cohesive team that is able to pickup slack where needed, specialise in their area and really contribute to the team.  </p.l>  
 
 <h4>What could be improved? </h4>  
 
-<p.l>My technical knowledge of Git-Hub and how we can affectively use it as a team has improved, but it can be improved a lot further as this was the area that myself and most of my teammates had the most trouble with.</p.l>  
+<p.l>In assignment 2 I stated that our technical knowledge needed some improving. Through this assignment we have created artifacts, developed our HTML/CSS and worked hard on our content to make waterlog a reality. This, as well as all the work that went into assignment 2, has greatly improved my technical knowledge and that of the team.  </p.l>  
 
  <h4>What was surprising? </h4>  
 
-<p.l>I was surprised by how well everyone worked as a team. Everyone showed up on time, there was a community presence while working together and it made the project a lot easier than what it could have been. Everyone is from different areas, backgrounds ages and personalities and yet we all got along well and were able to help each other as we struggled together.</p.l>  
+<p.l>I was surprised as to the level of consideration and empathy going into this group assignment. In previous assignments that I have done with a group in various courses I have always had to be the one that picks up the slack and organises everyone. Thankfully, in our group everyone is organised, diligent and hardworking. This surprised me in assignment 2 and our progress on Assignment 3 and 5 indicate that we are only improving.  </p.l>  
 
 <h4>What have you learnt about groups? </h4>  
 
-<p.l>I have learned that when I work by myself, I have a lot more anxiety then when I work in a team of other likeminded individuals. This is because I don’t have anyone with a familiar circumstance to relate to. While working in a group I was able to bounce ideas and have an open discourse with my teammates. This allowed myself and, I think, the others to grow and develop faster as a group than we would have alone. </p.l>   
+<p.l>I have learned that developing an understanding of the strengths of others is extremely beneficial. For example, if I need help with a technical problem, I can contact one of our more technically developed members like Max or If I have a questions about workflow or anything managerial I could just as Imogen. I think the other members of the group also noticed this and it made assignment 3 go a lot more smoothly than Assignment 3  </p.l>   
 
 
 <h6 style="font-size:1.5vw;">Benjamin Christy</h6> 
 
 <h4>What went well? </h4>  
 
-<p.l>The group functioned really well, everyone communicated through teams perfectly, and we could all work together to meet up twice a week. </p.l>  
+<p.l>The group worked well and consistent in most areas. Communication was great we had two meetings per week and when someone was going to be late or couldn’t make it they always let the group know. Everyone was also consistent with their work and collaboration efforts.  </p.l>  
 
 <h4>What could be improved? </h4>  
 
-<p.l>The only issue that we had was to do with Github. We all need to improve our knowledge with working with Github and using the branches function more effectively. </p.l>   
+<p.l>To be honest there is not much that needs improving apart from some of our technical knowledge in certain areas, for example html and app development. If we were more experienced we could make our waterlog website more interactive and we wouldn’t have to outsource our mobile app development.   </p.l>   
 
  <h4>What was surprising? </h4>  
 
-<p.l>The most surprising thing about this group was there where no issues with the team members where all happy and could all work together perfectly and delegate tasks to one another. </p.l>   
+<p.l>I was honesty surprised about how easy it is working in a team I did have doubts at the start after hearing stories from friends. Everyone is kind and if you ever had a problem or needed some help they were always there for support.  </p.l>   
 
 <h4>What have you learnt about groups? </h4>  
 
-<p.l>I have learned that it in working in a team communication is key and learning each other’s strengths and weaknesses help a lot in delegating tasks to make the work you are doing together flow more effectively. </p>  
+<p.l>I have learned that working in a team can not only be beneficial for your work flow, but also for self improvement and learning as well. For instance If can’t figure out some code, or some part of an assignment, I can ask and learn from the peers in my team  </p>  
 
 	<h6 style="font-size:1.5vw;">Henry Robinson</h6> 
-	<h4>What went well?</h4><p.l>Our team had exceptional communication. I found that it was to voice ideas and listen to other people. Everyone had a chance to take a leadership role, and there was no struggle for power in the group. We had some bumps in a technical sense, but because we are all new to this field, everyone was understanding about it. I never felt stressed or worried about communicating a mistake. </p.l>
-	<h4>What could be improved?</h4><p.l>Our technical expertise, particularly with using GitHub was at times slowing down our ability to get things done. There were a lot of branches that were not up to date, and the way that we were merging was overriding each others work. This may be reflected in the GItHub log. We were able to begin resolving this before the completion of the assignment, so I think this is an area of focus for future work together.  </p.l>
+	<h4>What went well?</h4><p.l> I found that this assignment had clear and defined roles. Because we had got to know each others strengths in A2, we built off that in assigning content to each member for A3. Being able to explore building a mock GUI for the project was very fun, and all group members delivered constructive feedback.  </p.l>
+	<h4>What could be improved?</h4><p.l>Personally I was pretty happy with the way this group has operated. Perhaps one aspect of our group which could be improved would be our technical skills. Some members are quite technically minded or have more  previous experience than others, but we all have many gaps in our knowledge. This is, however, to be expected as we have just started our studies.  </p.l>
 	
-	<h4>What was surprising?</h4><p.l>I was surprised that the group had no difficult members, or egos. In my past experience there is always at least one person who tries to dominate the group discourse in a forceful way, and not open to ideas. This was not the case in our team.</p.l>
-	<h4>What is one thing that you have learned about groups?</h4><p.l>In terms of IT projects, I can already see why collaboration is so important. Even the workload of this assignment was quite large, and this is just the first group task. </p.l>
+	<h4>What was surprising?</h4><p.l>In almost every situation there was a group member who was able to offer solutions to a problem. Because problems were varied in nature, there was a fairly even spread of who was contributing to solving them.  </p.l>
+	<h4>What is one thing that you have learned about groups?</h4><p.l>Group work is possible without a clear command structure. If you have a team that has mutual respect, and everybody is working hard, then there is a mutual trust that is established and sharing the leadership hat around becomes easy.  </p.l>
 
 <h6 style="font-size:1.5vw;">Group Reflection</h6> 
+<p.l> For Assignment 3, we were able to build on our strengths from our previous assignment. This enabled us to designate team members specific tasks in a very organised manner.<br>  Work was broken down and distributed to people based on our individual strengths and interests. There was a combination of continuing the same type of roles in A2 and new elements such as making front and back-end prototypes. <br> We were also happy to take on feedback from A2 regarding pushing code onto the GitHub. Specifically, we designated Ben the role of pushing code, to avoid overwriting each other's work. <br> <br> 
+	
+	 
+	
+	When we started A2, we were still getting to know each other and what our roles in the assignment would be. In A3, meetings were very efficient, and a lot of time was spent breaking down the assignment tasks. This meant that we were able to cover a lot of ground in a shorter period of time.  <br> Each member was able to chair at least one meeting and take charge in a leadership role. In a manner similar to A2, leadership in the meetings was shared and everyone was achieving the assignment goals. <br> <br> 
+	
+	 
+	
+	We were able to heavily expand on waterLog concept in A3. Fleshing out the waterLog project really helped us hone in on what the app was going to be. <br> Team members were also able to produce some artefacts to support the written concepts, including a graphic user interface, and an SQL database. These elements, along with the written content, really made the waterLog concept come to life. <br> <br> 
+	
+	 
+	
+	Based on a script from Andrew (one of the waterLog team members), we recorded a Shark Tank parody which involved a sales pitch of our waterLog idea. Recorded on MS Teams, this became the basis of our A5 idea. <br> Every team member had an on camera role, and Andrew was happy enough to edit the footage together. This assignment was a lot of fun, and our team felt very positively about the experience. On top of this, it was also a great way to finish off the class. <br> <br> 
+	
+	 
+	
+	 
+	
+	We had a lot of fun fleshing out waterLog into a developed concept. Taking everything into account, there was a general feeling of optimism within our group. Each member was able to contribute effectively, and communication was really strong. There was a strong cohesion from start to finish, and all members feel that it was overall a positive experience. </p.l> 
 
-<h4>What went well </h4>  
+<!--<h4>What went well </h4>  
 
 <p.l>The consensus is the group worked very well together. Everyone contributed equally, felt heard and supported. Communication and discourse were excellent, everyone attended meetings, took turns in chairing meetings, and discussed concerns, raised questions, and offered solutions via Microsoft Teams. Contribution of workload was even and equal, with each member assisting others with their delegated section as well as taking full responsibility for their own. </p.l> 
 
@@ -1278,9 +1805,10 @@ After looking into the various types of employment in cyber security I would con
 <p.l>The group ascertained early on that each member had varied and differing schedules and to ensure cohesion, flexibility was needed. This became a positive and group asset as each member could take shifts in workloads on days or times of the day which suited each of them. </p.l> 
 
 <p.l>Compromise, support and treating others as you wish to be treated is fundamental to any working relationship. This was an initial learning curve as each member became familiar with the other and discovered how best to offer this. </p.l> 
-		 <div class="divider"></div>
+
    
-		 <!-- References tab -->
+		References tab -->
+		 <div class="divider"></div>
 		 <div class="row">
 		   <div class="col-sm-12 text-centre">
 			 <h1>References</h1>
@@ -1295,7 +1823,7 @@ After looking into the various types of employment in cyber security I would con
 		   <p>Melbournewater.com.au. 2020. Testing Water Quality | Melbourne Water. [online] Available at: <https://www.melbournewater.com.au/water-data-and-education/water-facts-and-history/why-melbournes-water-tastes-great/testing-water> [Accessed 6 October 2020]. <br>
 		   Seqwater.com.au. 2020. Water Quality Annual Report 2018-19. [online] Available at: <https://www.seqwater.com.au/sites/default/files/2019-12/Seqwater%20Drinking%20Water%20Quality%20Management%20Plan%20%28DWQMP%29%20Report%202018-19.pdf> [Accessed 6 October 2020]. </p>
 
-		   <p style="font-size:2vw;">Cloud, Services, Servers Reference List</p> 
+		   <!--<p style="font-size:2vw;">Cloud, Services, Servers Reference List</p> 
 
 		   <p>Sharma, V., 2018. Powerful Uses of Cloud Computing. [online] Klient Solutech. Available at: <https://www.klientsolutech.com/powerful-uses-of-cloud-computing/> [Accessed 5 October 2020]. 
 		
@@ -1339,7 +1867,7 @@ After looking into the various types of employment in cyber security I would con
 		 </div>
    
 			 </div> 
-		<!-- <div class= "footer">
+		 <div class= "footer">
 		   <p>Water Near You - Team Profile</p>
 		 </div>-->
 	   </section>
